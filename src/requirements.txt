@@ -1,0 +1,7 @@
+# torch is assumed present (preinstalled on GPU pods; on a Mac install the
+# appropriate build separately). Everything else:
+transformers>=4.44
+accelerate
+scikit-learn
+numpy
+huggingface_hub
