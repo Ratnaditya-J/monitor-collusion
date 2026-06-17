@@ -1,0 +1,22 @@
+# private working notes (strategy, anything not for release)
+notes/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# large artifacts (rebuilt from scripts)
+*.npz
+*.pt
+*.safetensors
+*.bin
+data/
+outputs/
+results/
+*.log
+
+# os
+.DS_Store
