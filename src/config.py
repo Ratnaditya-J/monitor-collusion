@@ -7,7 +7,7 @@ See docs/PREREGISTRATION.md section 8 for the gate.
 
 # Target model to probe (open, dense so the residual stream is clean to probe).
 # Start small for a first local signal; scale up if the signal is borderline.
-TARGET_MODEL = "unsloth/Llama-3.2-1B-Instruct"   # byte-identical ungated mirror
+TARGET_MODEL = "NousResearch/Meta-Llama-3.1-8B-Instruct"   # ungated 8B mirror (real-size signal)
 
 # A second model used only to generate "other model's output" for the optional
 # self-recognition probe. Different family is better (style decorrelation).
