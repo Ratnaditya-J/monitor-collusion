@@ -38,10 +38,10 @@ OUT_DIR = "results"
 # Model ids are OpenRouter-style; adjust if using a different provider.
 LADDER = [
     "meta-llama/llama-3.1-8b-instruct",     # open small
+    "meta-llama/llama-3.3-70b-instruct",    # open mid-large dense
     "qwen/qwen-2.5-72b-instruct",           # open large dense
     "openai/gpt-oss-120b",                  # open large MoE (most capable open-lab)
-    "anthropic/claude-3.7-sonnet",          # Jarviniemi's exact frontier anchor
-    "anthropic/claude-opus-4.5",            # current frontier top (verify id)
+    "anthropic/claude-opus-4.5",            # frontier anchor (Claude 3.7 retired on OpenRouter)
 ]
 API_BASE = "https://openrouter.ai/api/v1"   # OpenAI-compatible; one key, whole ladder
 FOCAL_N_PAIRS = 40        # (meta-policy, meta-monitor) samples per model

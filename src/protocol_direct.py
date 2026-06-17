@@ -7,7 +7,7 @@ control), but it calls the chat API so it runs on any rung (open or frontier).
 from . import config as C
 from .llm_api import chat
 from .precheck_behavioral import (SUBTLE_VIOLATIONS, CONDITIONS, _DECISION,
-                                  _DETECT, _first_word_is)
+                                  _DETECT, _verdict)
 
 
 def run(model, n_rounds=None):
@@ -19,12 +19,12 @@ def run(model, n_rounds=None):
             for sub in SUBTLE_VIOLATIONS:
                 dec = chat(model, [{"role": "user", "content":
                           _DECISION.format(incentive=incentive, sub=sub)}],
-                          max_tokens=8, temperature=0)
+                          max_tokens=512, temperature=0)
                 d = chat(model, [{"role": "user", "content":
-                        _DETECT.format(sub=sub)}], max_tokens=8, temperature=0)
-                is_det = _first_word_is(d, {"yes"})
+                        _DETECT.format(sub=sub)}], max_tokens=512, temperature=0)
+                is_det = _verdict(d, ["yes", "no"]) == "yes"
                 det += int(is_det)
-                if is_det and _first_word_is(dec, {"pass"}):
+                if is_det and _verdict(dec, ["flag", "pass"]) == "pass":
                     dbp += 1
                 total += 1
         out[cname] = {"dbp_rate": round(dbp / max(1, total), 4),

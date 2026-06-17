@@ -66,6 +66,19 @@ def _first_word_is(resp, positives):
     return bool(head) and head[0] in positives
 
 
+def _verdict(resp, words):
+    """Reasoning-robust: return whichever option word appears LAST (whole-word,
+    case-insensitive) in the response, else None. Handles models that reason
+    before concluding."""
+    low = (resp or "").lower()
+    best, pos = None, -1
+    for w in words:
+        for m in re.finditer(r"\b" + re.escape(w) + r"\b", low):
+            if m.start() > pos:
+                pos, best = m.start(), w
+    return best
+
+
 def run_condition(model, tok, device, incentive, n_rounds=3):
     dbp = det = total = 0
     for _ in range(n_rounds):
