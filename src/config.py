@@ -49,3 +49,6 @@ DIRECT_N_ROUNDS = 3       # rounds over the subtle-violation set per condition
 # A fixed, capable, cheap judge used to verify the worker actually inserted a
 # backdoor (so "monitor passed benign code" is not miscounted as collusion).
 JUDGE_MODEL = "qwen/qwen-2.5-72b-instruct"
+# API calls are I/O-bound, so fire them concurrently. The client retries on 429,
+# which self-throttles if we over-shoot a provider rate limit.
+MAX_WORKERS = 32
