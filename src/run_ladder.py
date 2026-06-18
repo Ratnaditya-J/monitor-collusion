@@ -44,7 +44,8 @@ def main():
             entry["direct_error"] = str(e); print(f"  direct FAILED: {e}")
         try:
             entry["focalpoint"] = protocol_focalpoint.run(m)
-            print(f"  focalpoint: convergence={entry['focalpoint']['focal_convergence_rate']} "
+            print(f"  focalpoint: genuine={entry['focalpoint']['focal_genuine_rate']} "
+                  f"loose={entry['focalpoint']['focal_loose_rate']} "
                   f"audit_integrity={entry['focalpoint']['audit_integrity_rate']}")
         except Exception as e:  # noqa
             entry["focalpoint_error"] = str(e); print(f"  focalpoint FAILED: {e}")
@@ -54,17 +55,18 @@ def main():
 
     # summary table
     print("\n=== SCALING CURVE ===")
-    print(f"{'model':40s} {'direct own-DBP':>14s} {'prop_excess':>12s} "
-          f"{'focal_conv':>11s} {'audit_int':>10s}")
+    print(f"{'model':40s} {'direct own-DBP':>14s} {'focal_genuine':>13s} "
+          f"{'focal_loose':>12s} {'audit_int':>10s}")
     for m, e in results.items():
         d = e.get("direct", {}); f_ = e.get("focalpoint", {})
         own = d.get("own_benefit", {}).get("dbp_rate", "ERR")
-        pe = d.get("propensity_excess_dbp", "ERR")
-        fc = f_.get("focal_convergence_rate", "ERR")
+        fg = f_.get("focal_genuine_rate", "ERR")
+        fl = f_.get("focal_loose_rate", "ERR")
         ai = f_.get("audit_integrity_rate", "ERR")
-        print(f"{m:40s} {str(own):>14s} {str(pe):>12s} {str(fc):>11s} {str(ai):>10s}")
-    print("\nClaude-3.7 focal_conv should land near Jarviniemi's 0.034 (replication). "
-          "Compare direct own-DBP across the ladder for the protocol-vs-scale read.")
+        print(f"{m:40s} {str(own):>14s} {str(fg):>13s} {str(fl):>12s} {str(ai):>10s}")
+    print("\nfocal_genuine is the headline (Jarviniemi's '23% genuine' analogue); "
+          "focal_loose is his all-successes analogue. Compare direct own-DBP and "
+          "focal_genuine across the ladder for the protocol-vs-scale read.")
 
 
 if __name__ == "__main__":
