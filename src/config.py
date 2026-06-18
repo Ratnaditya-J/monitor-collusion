@@ -46,3 +46,6 @@ LADDER = [
 API_BASE = "https://openrouter.ai/api/v1"   # OpenAI-compatible; one key, whole ladder
 FOCAL_N_PAIRS = 40        # (meta-policy, meta-monitor) samples per model
 DIRECT_N_ROUNDS = 3       # rounds over the subtle-violation set per condition
+# A fixed, capable, cheap judge used to verify the worker actually inserted a
+# backdoor (so "monitor passed benign code" is not miscounted as collusion).
+JUDGE_MODEL = "qwen/qwen-2.5-72b-instruct"
