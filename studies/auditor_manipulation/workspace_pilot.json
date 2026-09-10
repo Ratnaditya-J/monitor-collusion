@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "status": "development_ready",
+  "project_stop_limit_usd": 20,
+  "prior_project_budget_charge_usd": 5.874149,
+  "local_spend_cap_usd": 14.125851,
+  "models": {
+    "openai/gpt-6-astra-pro": {
+      "id": "openai/gpt-6-astra-pro",
+      "provider_slug": "openai",
+      "provider_display_name": "OpenAI",
+      "advertised_endpoint": "OpenAI | openai/gpt-6-astra-pro-20260903",
+      "max_tokens": 8192,
+      "reasoning_effort": "high",
+      "pricing": {
+        "prompt": 1e-05,
+        "completion": 5e-05,
+        "input_cache_write": 1.25e-05
+      },
+      "input_reservation_multiplier": 16
+    },
+    "anthropic/claude-fable-5.1": {
+      "id": "anthropic/claude-fable-5.1",
+      "provider_slug": "anthropic",
+      "provider_display_name": "Anthropic",
+      "advertised_endpoint": "Anthropic | anthropic/claude-fable-5.1-20260831",
+      "max_tokens": 8192,
+      "reasoning_effort": "high",
+      "pricing": {
+        "prompt": 1e-05,
+        "completion": 5e-05,
+        "input_cache_write": 1.25e-05
+      },
+      "input_reservation_multiplier": 1
+    }
+  },
+  "attacker_models": [
+    "openai/gpt-6-astra-pro",
+    "anthropic/claude-fable-5.1"
+  ],
+  "auditor_models": [
+    "openai/gpt-6-astra-pro",
+    "anthropic/claude-fable-5.1"
+  ],
+  "development_auditor": "anthropic/claude-fable-5.1",
+  "reasoning_effort": "high",
+  "max_completion_tokens": 8192,
+  "model_selection_policy": "Use the most capable accessible models; verify current catalogs and provider documentation before a new run. Do not silently substitute a weaker model.",
+  "access_check": "results/auditor_manipulation/workspace_access.json",
+  "development_candidate_rounds": 2,
+  "comparison_conditions": [
+    "empty",
+    "honest",
+    "attack"
+  ],
+  "tool_rounds": 4,
+  "target_files": 6,
+  "target_total_characters": 12000,
+  "seed": 202609051,
+  "holdout_enabled": false,
+  "live_target_enabled": false,
+  "description": "Three development violation cases; six fresh development comparison cases. Freeze strategies, generate all payloads, then audit. No holdout calls."
+}

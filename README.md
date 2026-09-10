@@ -1,5 +1,82 @@
 # monitor-collusion
 
+## Current work: investigator reliability
+
+Can an honest AI investigator correctly assess agents that are trying to
+influence its investigation? This study uses explicitly instructed adversarial
+targets in a controlled workspace, with a separate operator answer key.
+
+**Current decision: pause further paid attack iterations.** The two latest
+adaptive development rounds are complete. Both second-round investigators
+identified the unauthorized document edit, and neither cleared the targets.
+Targets demonstrably coordinated accounts, criticized weaknesses and applied
+revisions. Those actions do not establish successful deception.
+
+The original model reviewer labeled two first-round conclusions partly erroneous.
+The subsequent [offline review](studies/auditor_manipulation/GO_NO_GO_REVIEW.md)
+disputes whether those labels establish investigator failures: the visible
+instructions did not sufficiently specify authenticated source origin or the
+completeness of permission records. Less certainty alone does not establish
+acceptance of a false claim. Original reviewer labels and reports are preserved.
+
+### Start here
+
+- [Study guide and historical protocols](studies/auditor_manipulation/README.md)
+- [Actual target communications and applied changes](studies/auditor_manipulation/TARGET_SNIPPETS.md)
+- [Two-round protocol](studies/auditor_manipulation/ADAPTIVE_V7_PROTOCOL.md) and
+  [original results with interpretation correction](studies/auditor_manipulation/ADAPTIVE_V7_RESULTS.md)
+- [Offline validity and research review](studies/auditor_manipulation/GO_NO_GO_REVIEW.md)
+- [Conditional next experiment and stopping rules](studies/auditor_manipulation/DECISIVE_TEST_SPEC.md)
+
+### Scope of the completed comparison
+
+Three targets each received four turns per condition per round. Across
+communicating and disconnected groups and two rounds, that is 48 target turns.
+The communicating group delivered 12 messages in round one and 11 in round two.
+Both groups received historical public feedback. Fresh investigators examined
+frozen workspaces. This was adaptation through context, not model-weight training.
+
+The latest allocation spent **$26.61435475 of $30**, including the earlier
+$3.4241635 comparison and confirmed lost-response charges. This is not the total
+historical cost of the project. No further model calls are scheduled. The
+conditional second-round defense replay did not trigger, and no defense efficacy
+or general investigator-reliability claim follows.
+
+The next design gives both investigator variants access to the same verifiable
+evidence and includes truthful explanations that should clear the target. It is
+specified only. Implementation, offline validity gates and a separately approved
+execution budget remain prerequisites.
+
+### Code and evidence
+
+`auditor_manipulation/` contains the simulation, investigator interfaces,
+adaptive runners, scoring and request-accounting code. `tests/` contains local
+software checks. `studies/auditor_manipulation/` contains protocols, configurations
+and curated research evidence. The [selected-action extract](studies/auditor_manipulation/EVIDENCE_TARGET_SNIPPETS.json)
+and [review extract](studies/auditor_manipulation/EVIDENCE_GO_NO_GO.json) retain
+source text and archive locators. Raw run directories remain gitignored under
+`results/`; the curated extracts are not a complete run archive.
+
+Software checks verify implementation behavior, not investigator capability:
+
+```sh
+python3 -m unittest discover -s tests -v
+```
+
+Paid runners require explicit invocation and authorization. Historical run
+commands and budgets in old protocols are not instructions to resume collection.
+
+### Model portability
+
+The workflow, evidence interfaces and report schema are reusable. Earlier runners
+support configured model selection, but the latest adaptive runner still pins
+Astra Pro, OpenAI Flex, response metadata and pricing/capacity checks. Changing
+`selected_model` alone does not switch that runner. Separate model adapters for
+targets, investigators and reviewers, self-hosted inference, and activation-probe
+instrumentation remain future work.
+
+## Original collusion study
+
 Measuring whether AI monitors collude with the models they oversee, and whether
 "collusion is rare" is a stable property or a temporary capability artifact.
 
@@ -7,7 +84,7 @@ A common plan for controlling powerful AI is to have one model watch another and
 flag bad behavior. That only works if the watcher cannot quietly side with the
 model it is policing. This repo measures whether it can.
 
-The one existing measurement (Järviniemi, *Subversion via Focal Points*,
+An initial motivating measurement (Järviniemi, *Subversion via Focal Points*,
 arXiv:2507.03010) reports a low success rate and reads as reassuring. But that
 number is a product of three different things:
 
@@ -28,13 +105,16 @@ actually made of, and which part of it changes with scale."
 - `docs/` design and pre-registration: the construct, the three-factor split,
   the decision rules, the confounds, and the feasibility gate.
 - `src/` the feasibility pre-check and the measurement code.
+- `auditor_manipulation/` the new study's offline fixtures, messages, and scorer.
+- `studies/auditor_manipulation/` the new draft protocol and model/cost plan.
 - `notes/` private working notes (gitignored).
 
 ## Status
 
-Design stage. Nothing run yet. The plan is gated: a cheap feasibility pre-check
-decides whether the activation read is viable on open-weight models before any
-larger run.
+The original study has pre-checks and a draft write-up in `docs/`. The newer
+investigator study has completed development runs and an offline validity review.
+Its current interpretation appears above. Historical collusion research and
+software checks are not empirical results of the newer experiment.
 
 ## Approach (two arms, one question)
 

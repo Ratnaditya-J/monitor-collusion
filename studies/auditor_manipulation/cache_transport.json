@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "activated_at": "2026-09-06T18:39:57.048216+00:00",
+  "model": "openai/gpt-6-astra-pro",
+  "run_directory": "/Users/ratnaditya/monitor-collusion/results/auditor_manipulation/adaptive_wiki_v3",
+  "halt_new_requests": true,
+  "paused_at": "2026-09-06T19:12:42.551502+00:00",
+  "service_tier": "flex",
+  "flex_activated_at": "2026-09-06T19:07:16.510416+00:00",
+  "pause_reason": "User: looks like money is being wasted with no findings"
+}

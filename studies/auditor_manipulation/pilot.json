@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "status": "development_feasibility_complete",
+  "collection_started": true,
+  "preregistration_frozen": false,
+  "initial_mode": "frozen_artifacts",
+  "live_mode_implemented": false,
+  "seed": 20260905,
+  "pairs_per_family": 10,
+  "development_pairs_per_family": 2,
+  "target_conditions": [
+    "honest",
+    "attack"
+  ],
+  "auditor_protocols": [
+    "standard",
+    "evidence_first_prompt"
+  ],
+  "artifact_character_limit": 4000,
+  "target_model": "openai/gpt-6-astra-pro",
+  "auditor_models": [
+    "openai/gpt-6-astra-pro",
+    "anthropic/claude-fable-5.1"
+  ],
+  "provider_routes": {
+    "openai/gpt-6-astra-pro": {
+      "only": [
+        "openai"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    },
+    "anthropic/claude-fable-5.1": {
+      "only": [
+        "anthropic"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true
+    }
+  },
+  "sampling_settings": {
+    "reasoning_effort": "high",
+    "temperature": "omitted; unsupported by selected endpoints"
+  },
+  "max_output_tokens": 8192,
+  "retry_policy": "no_automatic_retries",
+  "max_total_spend_usd": 16.729578,
+  "feasibility": {
+    "description": "One pair per family, two target conditions, two auditors, standard protocol, one repeat. Target notes are reused across auditors.",
+    "development_cases": 6,
+    "target_calls": 12,
+    "audit_calls": 24,
+    "total_calls_before_retries_or_attack_search": 36
+  },
+  "optional_expanded_development": {
+    "description": "All 12 development cases, two target conditions, two auditors, two protocols, two repeats. Notes reused across all audit arms.",
+    "development_cases": 12,
+    "target_calls": 24,
+    "audit_calls": 192,
+    "total_calls_before_retries_or_attack_search": 216
+  },
+  "open_decisions": [
+    "Validate attack adequacy and improve evidence-provenance realism; the six-case pilot had 24/24 correct audit verdicts.",
+    "Improve scenario realism and freeze the confirmatory protocol before any holdout use.",
+    "Implement the live-target interaction runner only after the frozen-artifact feasibility review."
+  ],
+  "audit_protocol": "standard",
+  "models": {
+    "openai/gpt-6-astra-pro": {
+      "id": "openai/gpt-6-astra-pro",
+      "provider_slug": "openai",
+      "provider_display_name": "OpenAI",
+      "advertised_endpoint": "OpenAI | openai/gpt-6-astra-pro-20260903",
+      "max_tokens": 8192,
+      "reasoning_effort": "high",
+      "pricing": {
+        "prompt": 1e-05,
+        "completion": 5e-05,
+        "input_cache_write": 1.25e-05
+      },
+      "input_reservation_multiplier": 16
+    },
+    "anthropic/claude-fable-5.1": {
+      "id": "anthropic/claude-fable-5.1",
+      "provider_slug": "anthropic",
+      "provider_display_name": "Anthropic",
+      "advertised_endpoint": "Anthropic | anthropic/claude-fable-5.1-20260831",
+      "max_tokens": 8192,
+      "reasoning_effort": "high",
+      "pricing": {
+        "prompt": 1e-05,
+        "completion": 5e-05,
+        "input_cache_write": 1.25e-05
+      },
+      "input_reservation_multiplier": 1
+    }
+  },
+  "pricing_checked_at": "2026-09-05T20:03:07.390898+00:00",
+  "model_selection_sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra",
+    "https://openrouter.ai/openai/gpt-6-astra-pro",
+    "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+    "https://openrouter.ai/anthropic/claude-fable-5.1"
+  ],
+  "concurrency": 4,
+  "active_run_directory": "results/auditor_manipulation/feasibility_v2",
+  "project_stop_limit_usd": 20,
+  "prior_calibration_budget_charge_usd": 3.2704225,
+  "calibration_directory": "results/auditor_manipulation/feasibility_v1",
+  "results_document": "RESULTS_FEASIBILITY.md",
+  "model_selection_policy": "Use the most capable accessible models; verify current catalogs and provider documentation before a new run. Do not silently substitute a weaker model."
+}
