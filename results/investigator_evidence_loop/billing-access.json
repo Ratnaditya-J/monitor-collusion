@@ -1,0 +1,6 @@
+{
+  "at": "2026-09-12T13:32:19.244462+00:00",
+  "endpoint": "/v1/organization/costs",
+  "http_status": 403,
+  "body_not_logged": true
+}

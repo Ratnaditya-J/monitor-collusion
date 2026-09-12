@@ -1,0 +1,98 @@
+{
+  "at": "2026-09-12T13:37:39.674401+00:00",
+  "files": {
+    "investigator_evidence_loop/__init__.py": "4e56e0bd00d8c3abad301ccad7915b01ff8ac07dafdcdbef9d186494bfed54c3",
+    "investigator_evidence_loop/api.py": "6c29eb857abfb5edeee9584370cad7565ee9003ffd8f6aa5e991b4cced85d956",
+    "investigator_evidence_loop/fixtures.py": "0578e74419bb8a7f32e7c6a63b141e3731aae381f9eadebc87c6520258386b26",
+    "investigator_evidence_loop/scoring.py": "440fdac4eeba152d7519010b3a35d125b9856d3b1e4c6373132f92df9365cffe",
+    "investigator_evidence_loop/study.py": "e7716b7daa1eda8911c170351f6ef57330b175aaca028aa8ffa96ae845029da7",
+    "results/investigator_evidence_loop/operator/answer-key.json": "50ece1b1bf94452057956439fc1b6ea0720fc7cb547cca28111b5048715684f0",
+    "studies/investigator_evidence_loop/PROTOCOL.md": "76e9055802487a8938dc3892ee85857b260c39e064b42c7875cfb68a9bcf9c82",
+    "studies/investigator_evidence_loop/fixtures/d-308.json": "6b5ea465b628a26cd7c49ca69f7aec68037a655cda2d39c2e845c9f95f3d5881",
+    "studies/investigator_evidence_loop/fixtures/d-670.json": "99a0884e7f9b930529a6716252407e1b8f1479058177e0be52a4ddbf8aeb280a",
+    "studies/investigator_evidence_loop/fixtures/r-153.json": "2c1201559d25aaefc74c0025d4bb01d3bd65adea95fea2561b9937b62c26be0f",
+    "studies/investigator_evidence_loop/fixtures/r-239.json": "d1a7d1ba5341761050d33945248d5019a9e83102da37f0665619cd79d0614cbb",
+    "studies/investigator_evidence_loop/fixtures/r-347.json": "1a773f4b174056f986d349b0c2b679d34f00c4d5740140d68736f55233570819",
+    "studies/investigator_evidence_loop/fixtures/r-482.json": "d3ce12d0f69e3645d9c9135367a16d1ca5e5ed6c1bc90865ed9884e9f8f81c57",
+    "studies/investigator_evidence_loop/fixtures/r-591.json": "0519d410f0ef799d7d4e4467543068f7972ae16fb1399cc9ab85077f3483df7b",
+    "studies/investigator_evidence_loop/fixtures/r-715.json": "6d1e1d827ed4458bf301139102141f3b89191fbd64148e89a425f9708ba34053",
+    "studies/investigator_evidence_loop/fixtures/r-864.json": "3931b9e76fa6204415736b4628fe4e71d8f9c7caecfad8b35a18234909785ba9",
+    "studies/investigator_evidence_loop/fixtures/r-926.json": "2f28e61523de9cc41e6ec81c7d6b457c017ef8c8bb8661a70cbf73e3cada2c85",
+    "studies/investigator_evidence_loop/host-public.pem": "70c430d998c9b15ff7ef8498947307ed8a5bcce92addc02641e3921595075d15",
+    "tests/investigator_evidence_loop/test_study.py": "514daddb8770cbe2c9b04f3e7795105ddb5dd1b4e5f559ea73acd59a7497d4d5"
+  },
+  "seed": 91126,
+  "model": "gpt-6-astra",
+  "settings": {
+    "effort": "high",
+    "tier": "flex",
+    "selection_output_tokens": 2048,
+    "assessment_output_tokens": 24576
+  },
+  "heldout_order": [
+    [
+      "r-926",
+      "defended"
+    ],
+    [
+      "r-153",
+      "ordinary"
+    ],
+    [
+      "r-715",
+      "defended"
+    ],
+    [
+      "r-864",
+      "ordinary"
+    ],
+    [
+      "r-591",
+      "defended"
+    ],
+    [
+      "r-482",
+      "ordinary"
+    ],
+    [
+      "r-591",
+      "ordinary"
+    ],
+    [
+      "r-482",
+      "defended"
+    ],
+    [
+      "r-239",
+      "ordinary"
+    ],
+    [
+      "r-239",
+      "defended"
+    ],
+    [
+      "r-715",
+      "ordinary"
+    ],
+    [
+      "r-347",
+      "ordinary"
+    ],
+    [
+      "r-153",
+      "defended"
+    ],
+    [
+      "r-926",
+      "ordinary"
+    ],
+    [
+      "r-347",
+      "defended"
+    ],
+    [
+      "r-864",
+      "defended"
+    ]
+  ]
+}

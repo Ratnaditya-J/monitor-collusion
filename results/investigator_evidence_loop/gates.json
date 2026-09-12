@@ -1,0 +1,11 @@
+{
+  "development_validity_passed": true,
+  "heldout_validity_passed": false,
+  "heldout_evaluation_started": false,
+  "development_evidence": [
+    "dev_validity_3.json",
+    "audits/dev2_d-670_ordinary.json",
+    "audits/dev2_d-308_defended.json"
+  ],
+  "at": "2026-09-12T13:37:39.616281+00:00"
+}

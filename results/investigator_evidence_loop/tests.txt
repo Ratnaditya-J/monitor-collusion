@@ -1,0 +1,20 @@
+test_capped_failure_stays_reserved_without_freezing_safe_dispatch (test_study.BoundedRecoveryTests.test_capped_failure_stays_reserved_without_freezing_safe_dispatch) ... ok
+test_cache_and_changed_request (test_study.BudgetTests.test_cache_and_changed_request) ... ok
+test_cap_and_long_context (test_study.BudgetTests.test_cap_and_long_context) ... ok
+test_key_not_persisted (test_study.BudgetTests.test_key_not_persisted) ... ok
+test_unknown_blocks_and_duplicate_never_dispatches (test_study.BudgetTests.test_unknown_blocks_and_duplicate_never_dispatches) ... ok
+test_success_reconciles_and_resumes_without_network (test_study.ClientIntegrationTests.test_success_reconciles_and_resumes_without_network) ... ok
+test_transport_failure_reserves_and_blocks (test_study.ClientIntegrationTests.test_transport_failure_reserves_and_blocks) ... ok
+test_action_timestamp_tampering_is_detected (test_study.ClosureTests.test_action_timestamp_tampering_is_detected) ... ok
+test_closed_study_blocks_new_requests (test_study.ClosureTests.test_closed_study_blocks_new_requests) ... ok
+test_elapsed_deadline_interrupts (test_study.ClosureTests.test_elapsed_deadline_interrupts) ... ok
+test_metered_cache_breakdown (test_study.ClosureTests.test_metered_cache_breakdown) ... ok
+test_all_truths_and_tamper_checks (test_study.FixtureTests.test_all_truths_and_tamper_checks) ... ok
+test_input_bytes_are_reserved_in_addition_to_output (test_study.FixtureTests.test_input_bytes_are_reserved_in_addition_to_output) ... ok
+test_tool_isolation (test_study.FixtureTests.test_tool_isolation) ... ok
+test_only_transport_failure_gets_one_recovery (test_study.RecoveryPolicyTests.test_only_transport_failure_gets_one_recovery) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.288s
+
+OK

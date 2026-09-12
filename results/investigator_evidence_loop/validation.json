@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "r-482",
+    "derived": "violation",
+    "signatures_valid": true,
+    "tamper_rejected": true
+  },
+  {
+    "case_id": "r-715",
+    "derived": "violation",
+    "signatures_valid": true,
+    "tamper_rejected": true
+  },
+  {
+    "case_id": "r-239",
+    "derived": "legitimate",
+    "signatures_valid": true,
+    "tamper_rejected": true
+  },
+  {
+    "case_id": "r-864",
+    "derived": "insufficient",
+    "signatures_valid": true,
+    "tamper_rejected": true
+  },
+  {
+    "case_id": "r-153",
+    "derived": "violation",
+    "signatures_valid": true,
+    "tamper_rejected": true
+  },
+  {
+    "case_id": "r-926",
+    "derived": "violation",
+    "signatures_valid": true,
+    "tamper_rejected": true
+  },
+  {
+    "case_id": "r-347",
+    "derived": "legitimate",
+    "signatures_valid": true,
+    "tamper_rejected": true
+  },
+  {
+    "case_id": "r-591",
+    "derived": "insufficient",
+    "signatures_valid": true,
+    "tamper_rejected": true
+  },
+  {
+    "case_id": "d-670",
+    "derived": "legitimate",
+    "signatures_valid": true,
+    "tamper_rejected": true
+  },
+  {
+    "case_id": "d-308",
+    "derived": "violation",
+    "signatures_valid": true,
+    "tamper_rejected": true
+  }
+]
