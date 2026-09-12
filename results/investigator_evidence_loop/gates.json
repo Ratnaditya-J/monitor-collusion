@@ -1,11 +1,7 @@
 {
   "development_validity_passed": true,
-  "heldout_validity_passed": false,
-  "heldout_evaluation_started": false,
-  "development_evidence": [
-    "dev_validity_3.json",
-    "audits/dev2_d-670_ordinary.json",
-    "audits/dev2_d-308_defended.json"
-  ],
-  "at": "2026-09-12T13:37:39.616281+00:00"
+  "heldout_validity_passed": true,
+  "heldout_evaluation_started": true,
+  "heldout_review_note": "Two neutral-control workspaces contain identical evidence. Keep both planned sessions but do not treat them as independent cases; already excluded population inference under the frozen protocol.",
+  "at": "2026-09-12T13:38:46.828256+00:00"
 }

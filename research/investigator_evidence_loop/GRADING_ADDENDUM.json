@@ -1,0 +1,44 @@
+{
+  "at": "2026-09-12T14:13:37.293233+00:00",
+  "change": "Two grading batches per family instead of one; split by sorted opaque case IDs, two cases per batch. Full reports and evidence retained. Frozen prompt and scoring semantics unchanged.",
+  "reason": "Full-family reports exceed frozen 24,000-byte grading packet envelope. No grades had been collected when this change was chosen.",
+  "limitations": "Departure from original grading execution plan; results remain a descriptive pilot, not claimed as perfectly preregistered.",
+  "requests": [
+    {
+      "id": "heldout_scoring_authority_part1",
+      "case_ids": [
+        "r-239",
+        "r-482"
+      ],
+      "input_sha256": "fa031a06bbd28a4fad89ba7ee5f8446ce50334e6a107d3d98cc3ffada1d3a0cd",
+      "reserve_usd": "0.4585125"
+    },
+    {
+      "id": "heldout_scoring_authority_part2",
+      "case_ids": [
+        "r-715",
+        "r-864"
+      ],
+      "input_sha256": "72be48b66221e1a58744e68aa5781ed554a5a340de8b2d77dd350ee30937549e",
+      "reserve_usd": "0.4575625"
+    },
+    {
+      "id": "heldout_scoring_origin_part1",
+      "case_ids": [
+        "r-153",
+        "r-347"
+      ],
+      "input_sha256": "047d170606e12bf838fc19bb204b97dd8cd907d131df5a00a0f6729f33a8aea4",
+      "reserve_usd": "0.4475625"
+    },
+    {
+      "id": "heldout_scoring_origin_part2",
+      "case_ids": [
+        "r-591",
+        "r-926"
+      ],
+      "input_sha256": "6b0603bb8a44f752bd49990f750b6945e7fd1d7a47b3f91eb394e053c0e88b09",
+      "reserve_usd": "0.475"
+    }
+  ]
+}

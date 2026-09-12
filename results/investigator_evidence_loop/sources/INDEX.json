@@ -1,0 +1,72 @@
+[
+  {
+    "path": "results/investigator_evidence_loop/sources/agentdrift-readme.md",
+    "bytes": 11460,
+    "sha256": "1e2c4f5979717a1e3b769b12ca472bfddcf49bf69c3bf049fb853f5b6f200a91",
+    "source_url": null,
+    "note": "Text extraction or linked README where no direct URL is listed; see source review."
+  },
+  {
+    "path": "results/investigator_evidence_loop/sources/agentdrift-tree.json",
+    "bytes": 7598701,
+    "sha256": "ea5575e8d2ea23432598b358ecdb0d9c0fad176a8e1419b8e13acd16938883a6",
+    "source_url": "https://api.github.com/repos/Asif-0209/AgentDrift/git/trees/014a514fa998b4ac4519579fceb8a5884b379bda?recursive=1",
+    "note": "Text extraction or linked README where no direct URL is listed; see source review."
+  },
+  {
+    "path": "results/investigator_evidence_loop/sources/astra.md",
+    "bytes": 3812,
+    "sha256": "f45ae813c3f69708e2576328056de14cdf71fec174c875f4b81d236105545625",
+    "source_url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+    "note": "Text extraction or linked README where no direct URL is listed; see source review."
+  },
+  {
+    "path": "results/investigator_evidence_loop/sources/benchflow-readme.md",
+    "bytes": 12170,
+    "sha256": "1712b055c953b6915811edd43d98fe38d70b744d3267f1d4b4b902848e5ae79b",
+    "source_url": null,
+    "note": "Text extraction or linked README where no direct URL is listed; see source review."
+  },
+  {
+    "path": "results/investigator_evidence_loop/sources/benchflow-tree.json",
+    "bytes": 470109,
+    "sha256": "2c73e2cacde20a44461922914d4eba3f97c4002d74ae8830ece989406b1be9e7",
+    "source_url": "https://api.github.com/repos/benchflow-ai/benchflow/git/trees/b3b8afaf552719603f49df919cdc656b237bf5d3?recursive=1",
+    "note": "Text extraction or linked README where no direct URL is listed; see source review."
+  },
+  {
+    "path": "results/investigator_evidence_loop/sources/benchshield.html",
+    "bytes": 451463,
+    "sha256": "c8ab100a91ab486826889afc8ac4293607151b0735780e1780b836b36307d160",
+    "source_url": "https://arxiv.org/html/2609.11028v1",
+    "note": "Text extraction or linked README where no direct URL is listed; see source review."
+  },
+  {
+    "path": "results/investigator_evidence_loop/sources/benchshield.txt",
+    "bytes": 122507,
+    "sha256": "17ad48eacc84a92a5c4cff0b0e92023a94454c070db085b43724b9832875649c",
+    "source_url": null,
+    "note": "Text extraction or linked README where no direct URL is listed; see source review."
+  },
+  {
+    "path": "results/investigator_evidence_loop/sources/driftnet.html",
+    "bytes": 382970,
+    "sha256": "27f4622a735e321056289535a8b4363f8f081a4c264cea597dcbc51836674cbe",
+    "source_url": "https://arxiv.org/html/2609.10892v1",
+    "note": "Text extraction or linked README where no direct URL is listed; see source review."
+  },
+  {
+    "path": "results/investigator_evidence_loop/sources/driftnet.txt",
+    "bytes": 86078,
+    "sha256": "3a8fb748e54d4ac098fcd35d8aef3beba777c887ba3b9c2220824f58af9ef24c",
+    "source_url": null,
+    "note": "Text extraction or linked README where no direct URL is listed; see source review."
+  },
+  {
+    "path": "results/investigator_evidence_loop/sources/flex.md",
+    "bytes": 6868,
+    "sha256": "2a2037a614221d9715120c83e9907e86aca32eb642ecd2d218bfce1d520a4715",
+    "source_url": "https://developers.openai.com/api/docs/guides/flex-processing",
+    "note": "Text extraction or linked README where no direct URL is listed; see source review."
+  }
+]

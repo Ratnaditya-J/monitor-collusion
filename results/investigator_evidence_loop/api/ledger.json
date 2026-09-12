@@ -1,9 +1,9 @@
 {
   "cap_usd": "30",
-  "metered_charge_usd": "0.23350625",
-  "usage_priced_upper_bound_usd": "0.23478750",
-  "unresolved_reserved_usd": "0.15375",
-  "available_usd": "29.61146250",
+  "metered_charge_usd": "1.10435775",
+  "usage_priced_upper_bound_usd": "1.12097500",
+  "unresolved_reserved_usd": "1.48490",
+  "available_usd": "27.39412500",
   "calls": [
     {
       "id": "credential_smoke",
@@ -92,6 +92,310 @@
       "reserve": "1.335375",
       "cost": "0.04163125",
       "record": "{\"at\":\"2026-09-12T13:37:06.031100+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_0831f5ed1f1d0d21016aa555718ef887d18f84a3bb8b1b0733\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1477,\"input_tokens_details\":{\"cache_write_tokens\":1474,\"cached_tokens\":0},\"output_tokens\":1296,\"output_tokens_details\":{\"reasoning_tokens\":516},\"total_tokens\":2773}}"
+    },
+    {
+      "id": "heldout_validity",
+      "sha": "ad72447a3094d437b66849e12d9bb17945092b684f8dafa7b349bec93fc6f1d5",
+      "status": "settled",
+      "reserve": "0.872575",
+      "cost": "0.1166375",
+      "record": "{\"at\":\"2026-09-12T13:38:11.711465+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_0a979b8cb822bf8a016aa555a44c0487d1b05b01513f3c7f99\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":8650,\"input_tokens_details\":{\"cache_write_tokens\":8647,\"cached_tokens\":0},\"output_tokens\":2503,\"output_tokens_details\":{\"reasoning_tokens\":846},\"total_tokens\":11153}}"
+    },
+    {
+      "id": "heldout_r-926_defended_select",
+      "sha": "2f3bc4ea82efa0d313914ee40c84193175f738ff27897db38841bdb69aefc409",
+      "status": "settled",
+      "reserve": "0.157575",
+      "cost": "0.00498125",
+      "record": "{\"at\":\"2026-09-12T13:38:49.494065+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_0a8bdd4f9ef2c6d6016aa555e76b2487d1a7941c8f3d76c93f\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":397,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":100,\"output_tokens_details\":{\"reasoning_tokens\":48},\"total_tokens\":497}}"
+    },
+    {
+      "id": "heldout_r-926_defended_final",
+      "sha": "ca9ffe6ac6a255e4310780055abb5bec5616d5846bdc3f5350e901c6b572abb2",
+      "status": "settled",
+      "reserve": "1.3357875",
+      "cost": "0.04080625",
+      "record": "{\"at\":\"2026-09-12T13:39:08.492175+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_01eca33eac01ecbf016aa555e9d2c087d1b1e27439abf7a423\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1469,\"input_tokens_details\":{\"cache_write_tokens\":1466,\"cached_tokens\":0},\"output_tokens\":1265,\"output_tokens_details\":{\"reasoning_tokens\":516},\"total_tokens\":2734}}"
+    },
+    {
+      "id": "heldout_r-153_ordinary_select",
+      "sha": "542f985274f082285891bf76bf35bfb5c93cad79823e4fd70a58e71d4eabb5cc",
+      "status": "settled",
+      "reserve": "0.152",
+      "cost": "0.0044875",
+      "record": "{\"at\":\"2026-09-12T13:39:12.843631+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_0c72813cc6afc479016aa555fcd7d087d18c69d6423b12fe19\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":322,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":99,\"output_tokens_details\":{\"reasoning_tokens\":47},\"total_tokens\":421}}"
+    },
+    {
+      "id": "heldout_r-153_ordinary_final",
+      "sha": "4192efa311da668e840a1d472bfd3d2ac6d5e4077e6cc7346d76ea7fb05dea2e",
+      "status": "settled",
+      "reserve": "1.322525",
+      "cost": "0.02454375",
+      "record": "{\"at\":\"2026-09-12T13:39:22.832143+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_05d153fbc36fbfe3016aa55601518887d1998dc9920c667b61\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1283,\"input_tokens_details\":{\"cache_write_tokens\":1280,\"cached_tokens\":0},\"output_tokens\":661,\"output_tokens_details\":{\"reasoning_tokens\":176},\"total_tokens\":1944}}"
+    },
+    {
+      "id": "heldout_r-715_defended_select",
+      "sha": "43ad1b52b3ed6ecfd29d732600bf676676948901e9b0db07f9007647317c96e4",
+      "status": "settled",
+      "reserve": "0.157575",
+      "cost": "0.00693125",
+      "record": "{\"at\":\"2026-09-12T13:39:26.016112+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_0e5b91b46e98a0b9016aa5560b143487d1a3e6b3fe74d03bd6\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":397,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":178,\"output_tokens_details\":{\"reasoning_tokens\":126},\"total_tokens\":575}}"
+    },
+    {
+      "id": "heldout_r-715_defended_final",
+      "sha": "dffe2977a93a846496bb3e951692587324e3b4c92eb270f57cc5461ef752ab6f",
+      "status": "settled",
+      "reserve": "1.33605",
+      "cost": "0.04445625",
+      "record": "{\"at\":\"2026-09-12T13:39:46.386156+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_0a01a29b2418545a016aa5560e6ab887d1855cbcd089bcd41b\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1473,\"input_tokens_details\":{\"cache_write_tokens\":1470,\"cached_tokens\":0},\"output_tokens\":1410,\"output_tokens_details\":{\"reasoning_tokens\":794},\"total_tokens\":2883}}"
+    },
+    {
+      "id": "heldout_r-864_ordinary_select",
+      "sha": "c57d8114d9efa56861a7ab413d07e8d93e137a746f165c038516018eae2f43c1",
+      "status": "settled",
+      "reserve": "0.152",
+      "cost": "0.0048375",
+      "record": "{\"at\":\"2026-09-12T13:39:49.024160+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_0e44467b9760d579016aa55622b74887d1b48c308368a4a0f7\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":322,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":113,\"output_tokens_details\":{\"reasoning_tokens\":61},\"total_tokens\":435}}"
+    },
+    {
+      "id": "heldout_r-864_ordinary_final",
+      "sha": "32243d58fc5c1415694d495fa702fcda5f9ed98d0dba65b2d0ce919e7ec25fa6",
+      "status": "capped_unknown",
+      "reserve": "1.33115",
+      "cost": null,
+      "record": "{\"actual_charge\":\"unknown\",\"at\":\"2026-09-12T14:09:32.667557+00:00\",\"basis\":\"Exact text-only request; standard cache-write/input and maximum output rates; no retries or automatic tier fallback.\",\"maximum_charge_permanently_reserved_usd\":\"1.33115\",\"prior\":{\"at\":\"2026-09-12T14:09:32.665256+00:00\",\"error_type\":\"TimeoutError\",\"http_status\":null}}"
+    },
+    {
+      "id": "heldout_r-864_ordinary_final_recovery1",
+      "sha": "32243d58fc5c1415694d495fa702fcda5f9ed98d0dba65b2d0ce919e7ec25fa6",
+      "status": "settled",
+      "reserve": "1.33115",
+      "cost": "0.0304875",
+      "record": "{\"at\":\"2026-09-12T14:09:44.633724+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_018e7559dd70615c016aa55d1df29c87d1875acc9b0111a3ed\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1406,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":1403},\"output_tokens\":868,\"output_tokens_details\":{\"reasoning_tokens\":334},\"total_tokens\":2274}}"
+    },
+    {
+      "id": "heldout_r-591_defended_select",
+      "sha": "9a6d61d8dc4533db17a29a3930cf224c0c4e34c45640bfae64bd1d43e6ee5e21",
+      "status": "settled",
+      "reserve": "0.157575",
+      "cost": "0.00513125",
+      "record": "{\"at\":\"2026-09-12T14:09:47.116226+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_09caeb899d756e78016aa55d28eefc87d1a21e205d60de806c\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":397,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":106,\"output_tokens_details\":{\"reasoning_tokens\":54},\"total_tokens\":503}}"
+    },
+    {
+      "id": "heldout_r-591_defended_final",
+      "sha": "d6fc22931f635b4caaf07058ed5da596a19fdd09d2c6faf10ae99f6b061b193b",
+      "status": "settled",
+      "reserve": "1.3344",
+      "cost": "0.037975",
+      "record": "{\"at\":\"2026-09-12T14:10:02.656693+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_0d78731cf0d74fb3016aa55d2b80d087d1b8119d8db9840a86\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1424,\"input_tokens_details\":{\"cache_write_tokens\":1421,\"cached_tokens\":0},\"output_tokens\":1163,\"output_tokens_details\":{\"reasoning_tokens\":482},\"total_tokens\":2587}}"
+    },
+    {
+      "id": "heldout_r-482_ordinary_select",
+      "sha": "1c7f8fd6a363d6a023d94e574223d2a951d3167b0a7a54a8e8c5acd8f0c3d7eb",
+      "status": "settled",
+      "reserve": "0.152",
+      "cost": "0.0045125",
+      "record": "{\"at\":\"2026-09-12T14:10:04.648075+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_09217b109fc8aebe016aa55d3aed8487d180b37986af8d621f\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":322,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":100,\"output_tokens_details\":{\"reasoning_tokens\":48},\"total_tokens\":422}}"
+    },
+    {
+      "id": "heldout_r-482_ordinary_final",
+      "sha": "b5ff24831a10b5da046247bffd24c7511e2645383b1a00d02fe4a38ec28ec4f8",
+      "status": "settled",
+      "reserve": "1.322525",
+      "cost": "0.02666875",
+      "record": "{\"at\":\"2026-09-12T14:10:14.382807+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_093303ae1274e111016aa55d3cfd0487d1add70d66ed8f3491\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1283,\"input_tokens_details\":{\"cache_write_tokens\":1280,\"cached_tokens\":0},\"output_tokens\":746,\"output_tokens_details\":{\"reasoning_tokens\":194},\"total_tokens\":2029}}"
+    },
+    {
+      "id": "heldout_r-591_ordinary_select",
+      "sha": "4d98cd3243a07e72b68b914bb39881765408a8d893f85139152aad0536324fa1",
+      "status": "settled",
+      "reserve": "0.152",
+      "cost": "0.0043375",
+      "record": "{\"at\":\"2026-09-12T14:10:16.481174+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_0c9d859f1aab991f016aa55d46a4e487d1a8cbe6c27a9a18ac\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":322,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":93,\"output_tokens_details\":{\"reasoning_tokens\":41},\"total_tokens\":415}}"
+    },
+    {
+      "id": "heldout_r-591_ordinary_final",
+      "sha": "559ce946c6fa8ca6942866c244198795e7e24634c7863757f2dae9384107dc8c",
+      "status": "settled",
+      "reserve": "1.328825",
+      "cost": "0.02998125",
+      "record": "{\"at\":\"2026-09-12T14:10:27.726299+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_063ce0bdb0ef572a016aa55d48dbc087d1925cf3d8671c237e\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1349,\"input_tokens_details\":{\"cache_write_tokens\":1346,\"cached_tokens\":0},\"output_tokens\":862,\"output_tokens_details\":{\"reasoning_tokens\":303},\"total_tokens\":2211}}"
+    },
+    {
+      "id": "heldout_r-482_defended_select",
+      "sha": "9579db1f9dca7a9a9a8eceb0188b5134f2f995f5e86d9b3dfe9c07549a44c1f4",
+      "status": "settled",
+      "reserve": "0.157575",
+      "cost": "0.00580625",
+      "record": "{\"at\":\"2026-09-12T14:10:31.680417+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_073c1589bd50c5cb016aa55d54368887d1b090c58bc7d27425\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":397,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":133,\"output_tokens_details\":{\"reasoning_tokens\":81},\"total_tokens\":530}}"
+    },
+    {
+      "id": "heldout_r-482_defended_final",
+      "sha": "6c56a7473002b2f32e807119d7d63b61210e68e4cda51c13bc1959bb62ef3f8e",
+      "status": "settled",
+      "reserve": "1.3281",
+      "cost": "0.0313375",
+      "record": "{\"at\":\"2026-09-12T14:10:42.604789+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_04be2c44ecfc4a06016aa55d57f9e087d185599994e85aad95\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1358,\"input_tokens_details\":{\"cache_write_tokens\":1355,\"cached_tokens\":0},\"output_tokens\":914,\"output_tokens_details\":{\"reasoning_tokens\":284},\"total_tokens\":2272}}"
+    },
+    {
+      "id": "heldout_r-239_ordinary_select",
+      "sha": "008a18cde9c97d92c83212d96258a9dc2e315ba82ec2cbca349ef9ae33bd026a",
+      "status": "settled",
+      "reserve": "0.152",
+      "cost": "0.0043625",
+      "record": "{\"at\":\"2026-09-12T14:10:44.668655+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_06f3ca4ddabc4eb6016aa55d62e71887d199d6c4bad91a2beb\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":322,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":94,\"output_tokens_details\":{\"reasoning_tokens\":42},\"total_tokens\":416}}"
+    },
+    {
+      "id": "heldout_r-239_ordinary_final",
+      "sha": "e4d4c1360b4fa036021e1fb86b4ec29d75f50b662ea624ef6cd63062bcdccdfb",
+      "status": "settled",
+      "reserve": "1.3322125",
+      "cost": "0.0301875",
+      "record": "{\"at\":\"2026-09-12T14:10:55.441657+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_0359322fc7be7aa3016aa55d64fb3c87d1871164fcdc264ec2\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1434,\"input_tokens_details\":{\"cache_write_tokens\":1431,\"cached_tokens\":0},\"output_tokens\":849,\"output_tokens_details\":{\"reasoning_tokens\":273},\"total_tokens\":2283}}"
+    },
+    {
+      "id": "heldout_r-239_defended_select",
+      "sha": "368a6bf9cffd402c00dad4839551717356298ee7885d3d68aa454e3219488c8a",
+      "status": "settled",
+      "reserve": "0.157575",
+      "cost": "0.00523125",
+      "record": "{\"at\":\"2026-09-12T14:10:57.492659+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_09b92869d95e021c016aa55d6fb0d487d1a7e06e266c111dd2\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":397,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":110,\"output_tokens_details\":{\"reasoning_tokens\":58},\"total_tokens\":507}}"
+    },
+    {
+      "id": "heldout_r-239_defended_final",
+      "sha": "de8916e54f11f1c835f42a36b7981bcb8c5d696babbbcb508137790926c29194",
+      "status": "settled",
+      "reserve": "1.3377875",
+      "cost": "0.03433125",
+      "record": "{\"at\":\"2026-09-12T14:11:10.727585+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_00d5aa3021d0b13c016aa55d71cc9087d196790e8c432d9dd8\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1509,\"input_tokens_details\":{\"cache_write_tokens\":1506,\"cached_tokens\":0},\"output_tokens\":996,\"output_tokens_details\":{\"reasoning_tokens\":279},\"total_tokens\":2505}}"
+    },
+    {
+      "id": "heldout_r-715_ordinary_select",
+      "sha": "6525896816d9c686c565e6082a58064877d5ad3d2c20e89397e599547ba23724",
+      "status": "settled",
+      "reserve": "0.152",
+      "cost": "0.0046375",
+      "record": "{\"at\":\"2026-09-12T14:11:12.692236+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_08f6bb5382f38b09016aa55d7ef32887d18a86e1ca9df99e1c\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":322,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":105,\"output_tokens_details\":{\"reasoning_tokens\":53},\"total_tokens\":427}}"
+    },
+    {
+      "id": "heldout_r-715_ordinary_final",
+      "sha": "7d8d78e7f4e376e2b7510b965a7ed9c166a15389b4c5bc6608d3e5835a3d89dc",
+      "status": "settled",
+      "reserve": "1.330475",
+      "cost": "0.0331375",
+      "record": "{\"at\":\"2026-09-12T14:11:27.045260+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_086e87566ab0828e016aa55d80fbd487d19361008b8faf46a9\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1398,\"input_tokens_details\":{\"cache_write_tokens\":1395,\"cached_tokens\":0},\"output_tokens\":976,\"output_tokens_details\":{\"reasoning_tokens\":433},\"total_tokens\":2374}}"
+    },
+    {
+      "id": "heldout_r-347_ordinary_select",
+      "sha": "d0dc99a77f734bdd5e9355ed8e92b4388049c1e3acf8d11faeaf33677c6b5be0",
+      "status": "settled",
+      "reserve": "0.152",
+      "cost": "0.0046875",
+      "record": "{\"at\":\"2026-09-12T14:11:29.391744+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_0cc8a5664b296119016aa55d8f56c887d19a3f841bf521cc15\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":322,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":107,\"output_tokens_details\":{\"reasoning_tokens\":55},\"total_tokens\":429}}"
+    },
+    {
+      "id": "heldout_r-347_ordinary_final",
+      "sha": "ce5fe00b3a6bcc17bbfdc4ed10b679fdda65ba9673f7a207a339483648f55a29",
+      "status": "settled",
+      "reserve": "1.3303875",
+      "cost": "0.02831875",
+      "record": "{\"at\":\"2026-09-12T14:11:39.297227+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_037a583fa515d07f016aa55d91bacc87d1a3ad7f841e3db4c4\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1395,\"input_tokens_details\":{\"cache_write_tokens\":1392,\"cached_tokens\":0},\"output_tokens\":784,\"output_tokens_details\":{\"reasoning_tokens\":269},\"total_tokens\":2179}}"
+    },
+    {
+      "id": "heldout_r-153_defended_select",
+      "sha": "d2b968ea2437e23cf1f959c46f3d65de15c3fa0fa2704fd771514500102eb44e",
+      "status": "settled",
+      "reserve": "0.157575",
+      "cost": "0.00485625",
+      "record": "{\"at\":\"2026-09-12T14:11:41.549715+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_06d123a5cdf46ca4016aa55d9ba0ec87d18fd52b532170b112\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":397,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":95,\"output_tokens_details\":{\"reasoning_tokens\":43},\"total_tokens\":492}}"
+    },
+    {
+      "id": "heldout_r-153_defended_final",
+      "sha": "7a031badb806bd703a179b37ea6a2570f2655ac36d7131e56b7d04c7fa537cbf",
+      "status": "settled",
+      "reserve": "1.3281",
+      "cost": "0.0316125",
+      "record": "{\"at\":\"2026-09-12T14:11:52.895744+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_08202c559772a407016aa55d9ddadc87d1919b19aace554983\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1358,\"input_tokens_details\":{\"cache_write_tokens\":1355,\"cached_tokens\":0},\"output_tokens\":925,\"output_tokens_details\":{\"reasoning_tokens\":273},\"total_tokens\":2283}}"
+    },
+    {
+      "id": "heldout_r-926_ordinary_select",
+      "sha": "11f5884ae75e5b14445195331c96203aae0000de70b7e064b841eaa25ef7d7e8",
+      "status": "settled",
+      "reserve": "0.152",
+      "cost": "0.0044375",
+      "record": "{\"at\":\"2026-09-12T14:11:55.096158+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_04e9f4747d33c4cf016aa55da9286487d196ebfbc76fc39dc3\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":322,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":97,\"output_tokens_details\":{\"reasoning_tokens\":45},\"total_tokens\":419}}"
+    },
+    {
+      "id": "heldout_r-926_ordinary_final",
+      "sha": "3c54c8cb8a1d6ee117515477975ed92880a8782f5c872814d42b9f245fd59e87",
+      "status": "settled",
+      "reserve": "1.3302125",
+      "cost": "0.0343875",
+      "record": "{\"at\":\"2026-09-12T14:12:08.555311+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_0666ff5e3e7564c4016aa55dab747087d19c206163bf67759a\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1394,\"input_tokens_details\":{\"cache_write_tokens\":1391,\"cached_tokens\":0},\"output_tokens\":1027,\"output_tokens_details\":{\"reasoning_tokens\":401},\"total_tokens\":2421}}"
+    },
+    {
+      "id": "heldout_r-347_defended_select",
+      "sha": "a63b31e431e3cac7d17ff1f32c0e7abdaf575a8a2d5a13801f035da68a6af26c",
+      "status": "settled",
+      "reserve": "0.157575",
+      "cost": "0.00593125",
+      "record": "{\"at\":\"2026-09-12T14:12:11.153665+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_0c5bfa15fc543879016aa55db8d52c87d1a4031d2551b88046\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":397,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":138,\"output_tokens_details\":{\"reasoning_tokens\":86},\"total_tokens\":535}}"
+    },
+    {
+      "id": "heldout_r-347_defended_final",
+      "sha": "d6bb4234f7c84483f6d9cfb85ed0fd869110384a85153aff17bbe354c2ccd28a",
+      "status": "settled",
+      "reserve": "1.3359625",
+      "cost": "0.0359875",
+      "record": "{\"at\":\"2026-09-12T14:12:26.198845+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_082f87780ad8d9b5016aa55dbb6f9487d18c0bef24888713d7\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1470,\"input_tokens_details\":{\"cache_write_tokens\":1467,\"cached_tokens\":0},\"output_tokens\":1072,\"output_tokens_details\":{\"reasoning_tokens\":445},\"total_tokens\":2542}}"
+    },
+    {
+      "id": "heldout_r-864_defended_select",
+      "sha": "3b757463bacd688a60d49b36da9be4ddcaa9d9ceb6520a635d693333d52fceba",
+      "status": "settled",
+      "reserve": "0.157575",
+      "cost": "0.00525625",
+      "record": "{\"at\":\"2026-09-12T14:12:28.668243+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_07f47c1cb01a7702016aa55dca847c87d198956308e0f036ec\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":397,\"input_tokens_details\":{\"cache_write_tokens\":0,\"cached_tokens\":0},\"output_tokens\":111,\"output_tokens_details\":{\"reasoning_tokens\":59},\"total_tokens\":508}}"
+    },
+    {
+      "id": "heldout_r-864_defended_final",
+      "sha": "5b956b17af74d006fc93da3a37bb35197b27f06f6dcc8a8ba9368c7d2e1282f9",
+      "status": "settled",
+      "reserve": "1.336725",
+      "cost": "0.03470625",
+      "record": "{\"at\":\"2026-09-12T14:12:41.328229+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_07ac9de1bd5d190a016aa55dcce86887d19ffed17f37e92b63\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":1481,\"input_tokens_details\":{\"cache_write_tokens\":1478,\"cached_tokens\":0},\"output_tokens\":1018,\"output_tokens_details\":{\"reasoning_tokens\":405},\"total_tokens\":2499}}"
+    },
+    {
+      "id": "heldout_scoring_authority_part1",
+      "sha": "29442a3004db5adb38dd22a4d31a97887581f02008bb17c1a2a3374879817c80",
+      "status": "settled",
+      "reserve": "0.4585125",
+      "cost": "0.0387875",
+      "record": "{\"at\":\"2026-09-12T14:13:44.432731+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_05655c1f6d46de4c016aa55e11ab1887d1b546df83e9a80575\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":3994,\"input_tokens_details\":{\"cache_write_tokens\":3991,\"cached_tokens\":0},\"output_tokens\":553,\"output_tokens_details\":{\"reasoning_tokens\":54},\"total_tokens\":4547}}"
+    },
+    {
+      "id": "heldout_scoring_authority_part2",
+      "sha": "2a919543cbd77c1ff48f7b874274a806de60275f1af1323e8d28f9ad0e44afdd",
+      "status": "settled",
+      "reserve": "0.4575625",
+      "cost": "0.03994375",
+      "record": "{\"at\":\"2026-09-12T14:13:52.044716+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_038d8372be1de2c6016aa55e18b7c087d1be0132407b6d8eeb\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":3935,\"input_tokens_details\":{\"cache_write_tokens\":3932,\"cached_tokens\":0},\"output_tokens\":614,\"output_tokens_details\":{\"reasoning_tokens\":81},\"total_tokens\":4549}}"
+    },
+    {
+      "id": "heldout_scoring_origin_part1",
+      "sha": "4b02f9802cc74eb8eb9ca52dff9175a67494aa9ed11f8f976018dddeda984138",
+      "status": "settled",
+      "reserve": "0.4475625",
+      "cost": "0.038425",
+      "record": "{\"at\":\"2026-09-12T14:13:58.779910+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_057b3b2c47a2d07a016aa55e204b9487d18961900e5e4b37db\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":3848,\"input_tokens_details\":{\"cache_write_tokens\":3845,\"cached_tokens\":0},\"output_tokens\":575,\"output_tokens_details\":{\"reasoning_tokens\":76},\"total_tokens\":4423}}"
+    },
+    {
+      "id": "heldout_scoring_origin_part2",
+      "sha": "1bf42d3841e61abc492a062fedc6c221eb2ea52d2acfec8dbbf66236e2d370ab",
+      "status": "settled",
+      "reserve": "0.475",
+      "cost": "0.04304375",
+      "record": "{\"at\":\"2026-09-12T14:14:07.266372+00:00\",\"model\":\"gpt-6-astra\",\"response_id\":\"resp_035aba12c251932d016aa55e270b8c87d1a6cc7c0138873b24\",\"response_status\":\"completed\",\"service_tier\":\"flex\",\"usage\":{\"input_tokens\":4159,\"input_tokens_details\":{\"cache_write_tokens\":4156,\"cached_tokens\":0},\"output_tokens\":682,\"output_tokens_details\":{\"reasoning_tokens\":177},\"total_tokens\":4841}}"
     }
   ],
   "accounting_basis": "Metered charge uses returned token/cache details and documented tier rates; enforcement uses higher all-input cache-write pricing. Not invoice reconciliation."

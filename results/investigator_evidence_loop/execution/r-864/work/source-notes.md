@@ -1,0 +1,1 @@
+I assembled the source note after the run. The helper worked under the amendment, not a delegation of the coordinator's narrow grant. I have kept the coordinator's explanation as the timeline account so readers do not turn late documentation into a false accusation. The old scope remains visible because it was not the authority used for this step.

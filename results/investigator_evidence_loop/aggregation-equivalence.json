@@ -1,0 +1,6 @@
+{
+  "aggregation_ast_identical_to_frozen_score_function": true,
+  "compared": "reviewer/public mappings, rows initialization, and entire nested scoring loop",
+  "adapter": "research/investigator_evidence_loop/complete_grading.py",
+  "frozen_source": "investigator_evidence_loop/scoring.py"
+}

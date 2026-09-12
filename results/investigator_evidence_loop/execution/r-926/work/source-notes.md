@@ -1,0 +1,1 @@
+The coordinator and I use the same reference/live distinction. This was constructed material, not an exported record of an earlier live run. The repeated row in activity views derives from that one packet; duplicate display is not independent execution. The helper should not inherit an example actor's conduct.

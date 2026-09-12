@@ -1,0 +1,101 @@
+{
+  "id": "resp_09b92869d95e021c016aa55d6fb0d487d1a7e06e266c111dd2",
+  "object": "response",
+  "created_at": 1789222255,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789222257,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 2048,
+  "max_tool_calls": null,
+  "model": "gpt-6-astra",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_09b92869d95e021c016aa55d70497887d1a387e5fe7cf82315",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqpV1xnjU9azRwE6HB0qi0DEVSg3GCcYJ6MKAbRQ6C7LBH7PS6jQW8a2ki8XWwLTdWgVeJlPMRLYeCwqmf_bU4wWu17cIYn6M_RCR_WJToFPfXDSzJTzahRZXXswaacXdn2u3G4HfjEyQ5HVKR0xN4y97hx0iMMdUTqopscj0tPErs3GhpZRNw2e92EUVwk2AAxsz1gAbdFRELlTuoeZWxsXVpOvmNljDPTWOd5cMh8Tvd_MFCOVbqR41h7n0eAzkyB1N6MqCYcTYNQ_bWPTOJ-UtFfqiegusnB7_n356ZrKWcrYSPEppGmAZE-2eXSGTsJOCFXs5sSxQm8zYulbBQ7RYdijGTwjwaHsaDsVAvHY2eYBWZVIdxpXnStHBIw4sl1VFF_jYLocsoRViI--Eu7VDjoS79Dr92FvzYxkP8X1AYgs4Z-bQ2PwDHbfqSta0P_i-B1Q0T_yhczFsTilWRAVXi88fSj60HNN9sdgzwQvoDmDZ85dbTXWxl4qxZetwcaY_L2WYADekNqFNHC6RqeXweBVkXNovH5MmwNmJd_bGGCo40V9q-ATIFhc6oqrYYEkX5RFKjUiabT2oRG5DeoCNP7w-g6J9Z0_CJb2rmPBhFP6e1Wh8Gm3JfkTWj8kWT35myXrEXTfdrSFevorzujbBRIuaGljnG03LsRgFNNhAbiX2OuJi7RaK1izyQbvHXo7Jt3HUmpMygf5pmbm8xxE2jSX7bRyi-NJZcPwVgtjFQQyHMGrLvYrJSXXcoE2XO4-44WPkbOZLzHxuxW7s3T0EzG3SOD3KdvZtaWrs5R-Opopohx4MSm_08b7ojfFdQe8_IEYRFJXGt9VHG3-3_P2biVwqRiMScFQgOeKLwIGj38sINQqYvxX9Q9yGPA-dDQbY0Ge0JTrT6lJs0AOMVg6OpJ_XKkyt9nm1LmqKLIEKzqwHWAqm0BvIicL_kPEYKPJkPp6GJEmlAbCTXi5DKKwCV5YeRB8ZJUKtqNQOna9ii6QzZporPUGIC7jrO9uo9kbVF0AVAxVOjXxuwG4-uFA0ky_SApTI-gmtAyyiX1W5-5QI2YNPDJyaTom4Wsz6uEBS8Q4SUc9i0yL0O3_cXdjoQ5kFnhB3qYzqvghjbVRM0a_2NagsipJHs87h7UUJZyKnRf4s7Q4Akr2O0IiPAj0RqU1k2idsYBLNB44YvuLu58GpNs6rEWMySqGQq9XV8zltwopQybHDm1Pcohravg_2FuR9spVu1EBHQudVcAvDTraNpQzONGgadGEwoLn0zNvLHYeVEfa78PguxFVUhc5sXWU6VTzi7WfNhAO2cIhu9K4ZodSNie0UXoJWvSMz2xrdpiArk4Ywn-4AsC6Vcvh7dtMeUwCHwjfHZ9OEMrFrkIv3yU53wRCU6o2fvh2F7QdUnqoyQBJtFpWS-P8-y1Z3tzy7jwtALV3ae6bVtAabPYHLP3fg6uiHwi1ltgoG2SmbuN2EEMU3aXEoiPJlvSkLFI4BfEs2m50gv-1YOAcN1gM9qy5ObOkGikuA7j_Y8Hs4IOsL8YlcJdKmFrphKw_KY3w==",
+      "summary": []
+    },
+    {
+      "id": "msg_09b92869d95e021c016aa55d71079487d1b364a2f64918081e",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"read\":[\"work/summary.md\",\"work/source-notes.md\",\"audit/activity.json\",\"audit/origin.json\",\"audit/authority.json\"],\"verify\":[\"audit/activity.json\",\"audit/origin.json\",\"audit/authority.json\"]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "high",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "flex",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 110,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 507
+  },
+  "user": null,
+  "metadata": {}
+}

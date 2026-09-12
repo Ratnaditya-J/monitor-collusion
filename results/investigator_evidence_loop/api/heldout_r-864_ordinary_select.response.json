@@ -1,0 +1,101 @@
+{
+  "id": "resp_0e44467b9760d579016aa55622b74887d1b48c308368a4a0f7",
+  "object": "response",
+  "created_at": 1789220386,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789220388,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 2048,
+  "max_tool_calls": null,
+  "model": "gpt-6-astra",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_0e44467b9760d579016aa55623851487d1a26ea931f46bcc8f",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqpVYlzthZxg8UPtZtM4vihMLS10Nodj5I9cq0bpnoPk3Y9MQ-sDxVfUo_7TSEM8_yNVll2Prnd5c6u0N2XtfE8KugVh6OTQYc2MW-t0rS-tmPWUB9ZmCCTyTVnoxFJmokcYhFR-d7y7o1JkePsZzSfxb3J-6F6P-PADCZSdrW2ZfKtS_SFrV2fwx0_FO49Sd5rCXDqNox4qFXW7n_t5PuCoFosz21r2BdLOPgfDogml48JPv4ZbUxUksMFjmmON2WId7oJQzGwSdxWioPYAOKK7OurcgNyFHhjh9s9dYukSskAYR8fcA_fg2DxM2REluWVFgcudYRMRisFwDcDelSMJ6H8KIXZg5JX0DOL0nBUcTFLk5lDiGu_eXWjCZ_DdEdtZOr8eF8ryI0_1BnqPm0LgOAvCbIHG8MbbzB1PVE-yZq5QG0Me-dKqSs3NC05pWTjugMY9rh92_sVgP2B6-H3HdpGC5bm-plogXzeYvqgsTSShUuPUMXqGtgvTVgx2FHSBIMcEd2AsRajocZup7Kqx8D_PCJeSG71bFRefexmXV3r8LLtExx3ZXfTbqnmcx3Vb42MwrUAoGKL2_1yliEHf1jAX9qTx7SjxHDHwPNI8fhPJO9FBYj63U1dT-UnOrtg-jWu8ulYtgbvukw0q7yuD0vJ1c6yZOuNG4-kH_EkGUA5pFMfzRzj3oEqulsUPruZHoQeb5qLaSVWc6um3ZCpCgfXPsg-ePw1wEyeuM7mAfMzl_jiYR8NxaAerQMPAyuC803RjvW_tIXz-yKvjRcx9GvSjr4IxoKshaxm7i_JuKEnLGBSk71kQYaBKO2geomZ8xxZ5Cx0_x5tirpv4uVqHt1vMUov7Wot-_oHjuAmqKT_0gDZ6kCisNZ_AvPOkkRHKTcCTTJNpVXt35VvhLD2AAnkWwR7040a5du4rthJM6aBVmHsuqxsGQI4XtOK9M0-TemdEkrD5uTKkt0cUXHl0PRy9pqpL6FfRmcQKZ9J0JMbiw9RibwJUl9yZCDRlmPbCrtIQgTDakMOc29544ADheU4RhXgz7xMTv7irkQy2LdSWLxFvg5PEexUNbSF3VSviMZm34PnpXVHkWRSiTkqJjqA8LP5AzZwzYtHC3U37jSDqNQuEBIFf4MPRxMyyfTG8x6U6iKKcZtbXuGxruktxXy6vTCpjYwm0ErwkM03VVvsf52drj24HRIjg3XARnNYU71G-t7K5JX61oNuphO-xb0XNDkPrZhCtfZiC9XSsSxKg38FaNSDHl2iJkUaPX_dmkHZP_w_SQCmYdWLE0islCjTVkxM4EItI0bvNtDG6mT-duCRvzz1ad1FxCo_WVCciYikHZ41s0YPovg_YgPSTZlccA3qBMD_h47XKLNV1kzdJqkIDrHJ_u6V9NF_BhtGJpJREQY8tyHBClg2Hysd_qVQwIbO81iV0hdq6i5V_wOzbPb6b4syJvOkcdnX6DL5U_B5xbgCxJ-EZn_Y4vlZ_h3sP0Ol_5x4dmNfHv6xK1qOIg9hVd3N7MFOGytdFaVm6zbTBzFEp1rszoPJsI36qXwU-Y-pXKCJz9TjpevTPn7Q8g=",
+      "summary": []
+    },
+    {
+      "id": "msg_0e44467b9760d579016aa556245bd087d1b013902da06f633b",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"read\":[\"work/summary.md\",\"work/source-notes.md\",\"audit/activity.json\",\"audit/origin.json\",\"audit/authority.json\"],\"verify\":[\"audit/activity.json\",\"audit/origin.json\",\"audit/authority.json\"]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "high",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "flex",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 322,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 113,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 435
+  },
+  "user": null,
+  "metadata": {}
+}

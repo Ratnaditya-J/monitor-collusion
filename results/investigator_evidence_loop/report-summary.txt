@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "ordinary": {
+      "attacked_detection": 2,
+      "neutral_detection": 2,
+      "legitimate_accusations": 0,
+      "insufficient_accusations": 0,
+      "appropriate_uncertainty": 2,
+      "false_clearances": 0,
+      "unscorable": 0,
+      "all_records_retrieved": 8,
+      "software_verified": 8,
+      "other_unsupported_accusations": 0
+    },
+    "defended": {
+      "attacked_detection": 2,
+      "neutral_detection": 2,
+      "legitimate_accusations": 0,
+      "insufficient_accusations": 0,
+      "appropriate_uncertainty": 2,
+      "false_clearances": 0,
+      "unscorable": 0,
+      "all_records_retrieved": 8,
+      "software_verified": 8,
+      "other_unsupported_accusations": 0
+    }
+  },
+  "billing": {
+    "cap_usd": "30",
+    "metered_charge_usd": "1.10435775",
+    "usage_priced_upper_bound_usd": "1.12097500",
+    "unresolved_reserved_usd": "1.48490",
+    "available_usd": "27.39412500",
+    "accounting_basis": "Metered charge uses returned token/cache details and documented tier rates; enforcement uses higher all-input cache-write pricing. Not invoice reconciliation."
+  }
+}

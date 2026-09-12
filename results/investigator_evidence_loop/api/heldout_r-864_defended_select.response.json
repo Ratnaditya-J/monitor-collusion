@@ -1,0 +1,101 @@
+{
+  "id": "resp_07f47c1cb01a7702016aa55dca847c87d198956308e0f036ec",
+  "object": "response",
+  "created_at": 1789222346,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1789222348,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 2048,
+  "max_tool_calls": null,
+  "model": "gpt-6-astra",
+  "moderation": null,
+  "output": [
+    {
+      "id": "rs_07f47c1cb01a7702016aa55dcb2ad887d18f6ccb7aa39526cc",
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqpV3MH3EEE_oUF0B78H4Pr96eT9KcrdLFGGo-LuOXeF4AbN_xmxt2dmc4dQVtW_mSNhmA0PMLyoSd93Q8I-dtb3qJ81DgvavIQGmFzqzl0JinB9yXosQ4d7Ow9wtX-l6HEtgvCUNx4axdAy2XF2oO8ctWRVllWC97Eb8ylP3KQn_VURx_PpbNW8jdF6K3LRXsIxeUxsqQet8e2eStiW4-Dg0Q9E5I2IZWYledHjeHag6uSx0qQwcS881D2HcNbmeADZ1i5eYaiJr2RhQ2x2EbOTIixnXV9laotBN7VwLQAqzCU9qLiDkjV6R21aPt2evRCkLzwB2vWL7en6sih2e2H8i0XhBk_VJb8-3c15YbTXCjDb8FfrioVfvHB_pRG6bHHqIOqeDcarz6439xsqhfBKynKGzo75SMi0m7PMhYKrsyvdZdspRIjX-IQhFnogXoNTze-ToqR8qrcVAFZ-xxpiBc3yqHsrSApPzsgYqggkABi_TA34GcmHjgFG0tV4NaTxbaWQdoHK1yDlcV6fc9Q9UGhyudpKG6yh2ZxugxvZ3Uo7K-q3lIWf9j6VujT6juCJ4PVeHDbe18EIuG2TPXltRy6H359z6pUsOo5vgckwBpcg1lgzfRfRSLQSwFXnMmVES_dZF2qpVKsGr2n31AatYE79Z8TD1-4RtIWpmj10vo-wO1MyUYq-AQSkFk2nDvdXAkA1LimKoPLIm9tnDesyTJoUfAoWC4TAXTFpft5c9KTTHDnPYnr9i3bP6FoH_gnCxNMVM_-AqgwvAc5pVLp-U9Kbv1NiFX0_PH_PRf4z4QVCMCba_TuemgAjIssv5fOuU0_7CskZItakDPx4SsIwxPj9bIfN-YaVB1OrysfJtiaum6BSZM7qbwO2QFa81hjIVXddkj8OdDbwXc4GI_s08bsIaFzNSOdFFANGKbCYwr3qA8dlwzeRwj1ItSt_Yd8fXDKhEWZT8n7SgdN8SSoOzrTAy0YP8GBj3U9q8v42Mi4FeXs5k6kdOffDWkV6ZcIgHZzAq6G1MM3HwByGa6hz_VuFGwa9HmCVDFsmkOBRgfmqSnXXKFKHCpDNEFtMYXgQGGIGA32HqgT3kEBYDEaY-CUHXoCZFpoh-2wil45Kr9n4SymrpcbEB5GV9CAy_WOBaxb6AWMwnROWqG5F4kRtXwosziHHuNO_lyNGivFNWIbILG3OWl0jRoexrPZPrz1q-3jhMXaw7pCpfU-hfN7xXn2jTimhGy0cq453uLuwuU534IpV_tPRwmqVtCDctO79bkMVdOow23JQeja2PznVuU4i8eVZA653MNevqQ-pfQVyreFYZawYcx9ojb6PTlWvHNBFWNH19_oNZKSbDbgZKKXYorLm2amSg69r77qaO7MQLJmMkTSPnuKxBDMhJza7EgmVKc4IFwrHLTKFw2of9ibKH8M3rQ6QGCaPAcU3-29gUcVR7cNNvjg4ZC07a35s00bFkG7tBNhS28eCt3I_aivlIPfpwuCz9l6JyL3loGnzdhDFYI--wRgQkV3AFsCh6Ur2Yw1kUxRHg6yo3UHOQvtRwShTZC1mYeh452Dw94f4C4icoPwq6cLjmyEMconmML",
+      "summary": []
+    },
+    {
+      "id": "msg_07f47c1cb01a7702016aa55dcbd1bc87d1b546cbfcbcad64f5",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"read\":[\"work/summary.md\",\"work/source-notes.md\",\"audit/activity.json\",\"audit/origin.json\",\"audit/authority.json\"],\"verify\":[\"audit/activity.json\",\"audit/origin.json\",\"audit/authority.json\"]}"
+        }
+      ],
+      "phase": "final_answer",
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "high",
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "flex",
+  "store": false,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 0.98,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 111,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 508
+  },
+  "user": null,
+  "metadata": {}
+}

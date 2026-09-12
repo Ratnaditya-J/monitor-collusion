@@ -2,7 +2,7 @@
 
 ## Evidence-grounded investigator pilot (September 12, 2026)
 
-A new $30-capped pilot compares ordinary and evidence-grounded investigations on matched unauthorized, legitimate and insufficient-evidence workspaces. Development defects and infrastructure recovery are recorded explicitly; prior studies remain unchanged. See the [frozen protocol](studies/investigator_evidence_loop/PROTOCOL.md), [source verification](research/investigator_evidence_loop/SOURCE_REVIEW.md), and [development decisions](research/investigator_evidence_loop/DECISIONS.md). Evaluation status and final deliverables are maintained in [study state](research/investigator_evidence_loop/state.json).
+A new $30-capped pilot compares ordinary and evidence-grounded investigations on matched unauthorized, legitimate and insufficient-evidence workspaces. Development defects and infrastructure recovery are recorded explicitly; prior studies remain unchanged. See the [frozen protocol](studies/investigator_evidence_loop/PROTOCOL.md), [source verification](research/investigator_evidence_loop/SOURCE_REVIEW.md), and [development decisions](research/investigator_evidence_loop/DECISIONS.md). The [final report](research/investigator_evidence_loop/FINAL_REPORT.md) records 16 completed investigations: both conditions detected all tested unauthorized actions, avoided false accusations on legitimate controls, and preserved genuine uncertainty. No added defense benefit was demonstrated. Known metered charges were $1.10, with $1.48490 still reserved for unresolved requests.
 
 
 ## Current work: investigator reliability

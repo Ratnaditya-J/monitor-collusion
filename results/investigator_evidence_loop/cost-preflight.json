@@ -1,0 +1,116 @@
+{
+  "model": "gpt-6-astra",
+  "requests_remaining": [
+    {
+      "id": "heldout_r-864_ordinary_final",
+      "reserve_usd": "1.33475"
+    },
+    {
+      "id": "heldout_r-591_defended_select",
+      "reserve_usd": "0.157575"
+    },
+    {
+      "id": "heldout_r-591_defended_final",
+      "reserve_usd": "1.338"
+    },
+    {
+      "id": "heldout_r-482_ordinary_select",
+      "reserve_usd": "0.152"
+    },
+    {
+      "id": "heldout_r-482_ordinary_final",
+      "reserve_usd": "1.326125"
+    },
+    {
+      "id": "heldout_r-591_ordinary_select",
+      "reserve_usd": "0.152"
+    },
+    {
+      "id": "heldout_r-591_ordinary_final",
+      "reserve_usd": "1.332425"
+    },
+    {
+      "id": "heldout_r-482_defended_select",
+      "reserve_usd": "0.157575"
+    },
+    {
+      "id": "heldout_r-482_defended_final",
+      "reserve_usd": "1.3317"
+    },
+    {
+      "id": "heldout_r-239_ordinary_select",
+      "reserve_usd": "0.152"
+    },
+    {
+      "id": "heldout_r-239_ordinary_final",
+      "reserve_usd": "1.3358125"
+    },
+    {
+      "id": "heldout_r-239_defended_select",
+      "reserve_usd": "0.157575"
+    },
+    {
+      "id": "heldout_r-239_defended_final",
+      "reserve_usd": "1.3413875"
+    },
+    {
+      "id": "heldout_r-715_ordinary_select",
+      "reserve_usd": "0.152"
+    },
+    {
+      "id": "heldout_r-715_ordinary_final",
+      "reserve_usd": "1.334075"
+    },
+    {
+      "id": "heldout_r-347_ordinary_select",
+      "reserve_usd": "0.152"
+    },
+    {
+      "id": "heldout_r-347_ordinary_final",
+      "reserve_usd": "1.3339875"
+    },
+    {
+      "id": "heldout_r-153_defended_select",
+      "reserve_usd": "0.157575"
+    },
+    {
+      "id": "heldout_r-153_defended_final",
+      "reserve_usd": "1.3317"
+    },
+    {
+      "id": "heldout_r-926_ordinary_select",
+      "reserve_usd": "0.152"
+    },
+    {
+      "id": "heldout_r-926_ordinary_final",
+      "reserve_usd": "1.3338125"
+    },
+    {
+      "id": "heldout_r-347_defended_select",
+      "reserve_usd": "0.157575"
+    },
+    {
+      "id": "heldout_r-347_defended_final",
+      "reserve_usd": "1.3395625"
+    },
+    {
+      "id": "heldout_r-864_defended_select",
+      "reserve_usd": "0.157575"
+    },
+    {
+      "id": "heldout_r-864_defended_final",
+      "reserve_usd": "1.340325"
+    },
+    {
+      "id": "heldout_scoring_authority",
+      "reserve_usd": "0.5304"
+    },
+    {
+      "id": "heldout_scoring_origin",
+      "reserve_usd": "0.5304"
+    }
+  ],
+  "total_remaining_standard_rate_reserve_usd": "20.2719125",
+  "already_usage_priced_upper_bound_usd": "0.48246875",
+  "at": "2026-09-12T14:09:32.849140+00:00"
+}

@@ -1,0 +1,5 @@
+{
+  "at": "2026-09-12T13:32:49.481003+00:00",
+  "reason": "Operational no-go: unresolved charge for interrupted dev_d-308_defended_select; no new paid requests authorized by this closed protocol. Reconcile before a new study decision.",
+  "unresolved_call": "dev_d-308_defended_select"
+}
