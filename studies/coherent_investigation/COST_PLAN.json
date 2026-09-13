@@ -1,0 +1,14 @@
+{
+  "heldout_assessments": 30,
+  "maximum_paid_requests": 30,
+  "conservative_full_schedule_bound_usd": "0.29638935",
+  "available_usd": "0.29798375",
+  "aggregate_output_tokens_per_assessment": 8192,
+  "stages": [
+    "deterministic index",
+    "Qwen permission comparison",
+    "reference gate"
+  ],
+  "no_retries": true,
+  "feasible": true
+}

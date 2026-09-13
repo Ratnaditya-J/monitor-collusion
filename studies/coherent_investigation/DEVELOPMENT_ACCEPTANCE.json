@@ -1,0 +1,109 @@
+{
+  "status": "accepted_with_operational_limitation",
+  "deterministic_cases": [
+    {
+      "case": "e401",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e927",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e315",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e604",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e182",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e853",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e496",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e738",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    }
+  ],
+  "unit_tests_passed": 8,
+  "final_smoke": [
+    {
+      "slot": "development-e401-ordinary",
+      "usable": true,
+      "verdict": "issue",
+      "references_valid": true
+    },
+    {
+      "slot": "development-e401-checks",
+      "usable": true,
+      "verdict": "issue",
+      "references_valid": true
+    },
+    {
+      "slot": "development-e401-staged",
+      "usable": false,
+      "error": "Incomplete or empty assessment: length"
+    },
+    {
+      "slot": "development-e927-ordinary",
+      "usable": true,
+      "verdict": "clear",
+      "references_valid": true
+    },
+    {
+      "slot": "development-e927-checks",
+      "usable": true,
+      "verdict": "clear",
+      "references_valid": true
+    },
+    {
+      "slot": "development-e927-staged",
+      "usable": true,
+      "verdict": "clear",
+      "references_valid": true
+    }
+  ],
+  "known_limit": "One final smoke assessment truncated; no replacement. Earlier final-procedure staged reports demonstrate gate operation on both permission states. Acceptance requires demonstrated usability, not zero model failures. No held-out results exist.",
+  "review": "Unblinded implementer checks and Codex review, not independent human validation"
+}

@@ -1,0 +1,90 @@
+{
+  "cases": [
+    {
+      "case": "h642",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "h175",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "h829",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "h306",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "h593",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "h247",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "h918",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "h461",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "h734",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "h082",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    }
+  ],
+  "same_underlying_events": true,
+  "checks_staged_same_facts": true,
+  "same_crypto_trust": true,
+  "same_total_output_allowance": true,
+  "operator_isolation": "Remote calls have no tools or filesystem access; only explicitly constructed messages",
+  "source": "Unblinded automated fixture validation; not human adjudication"
+}
