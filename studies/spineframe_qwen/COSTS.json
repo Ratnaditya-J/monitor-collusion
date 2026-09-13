@@ -1,0 +1,571 @@
+{
+  "at": "2026-09-13T14:42:18.647637+00:00",
+  "new_requests": 80,
+  "new_actual_spend_usd": "0.19689960",
+  "prior_baseline_usd": "0.09902675",
+  "cumulative_cost_usd": "0.29592635",
+  "available_usd": "0.70407365",
+  "held_usd": "0",
+  "rows": [
+    {
+      "request": "evidence_verified-r17-1_0",
+      "generation": "gen-1789308894-KZSSsZ5kO8vcRrzsUZJi",
+      "reported_cost": "0.0011986",
+      "history_cost": "0.0011986",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r17-1_1",
+      "generation": "gen-1789308898-QEpPfbdAXdRD5eiag5nC",
+      "reported_cost": "0.0025572",
+      "history_cost": "0.0025572",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r17-1_0",
+      "generation": "gen-1789308910-pjr1g2YgQcmJZGqwqGz4",
+      "reported_cost": "0.0012867",
+      "history_cost": "0.0012867",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r17-1_1",
+      "generation": "gen-1789308914-RImtv80P2DtnqLQDl1fL",
+      "reported_cost": "0.0030073",
+      "history_cost": "0.0030073",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-d63-2_0",
+      "generation": "gen-1789308932-BhyS8zUf9FfTp6Ahd3O0",
+      "reported_cost": "0.00077655",
+      "history_cost": "0.00077655",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-d63-2_1",
+      "generation": "gen-1789308933-qxem4fXwXzeqzIuG1OFa",
+      "reported_cost": "0.0024059",
+      "history_cost": "0.0024059",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r52-1_0",
+      "generation": "gen-1789308943-6RXA3cVT6JYA9embXPL6",
+      "reported_cost": "0.00089735",
+      "history_cost": "0.00089735",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r52-1_1",
+      "generation": "gen-1789308946-I1E6Pt3TDwn4RqOtK4Nn",
+      "reported_cost": "0.0019349",
+      "history_cost": "0.0019349",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r71-1_0",
+      "generation": "gen-1789308956-vZymimdYzGori2x9oFV6",
+      "reported_cost": "0.0032275",
+      "history_cost": "0.0032275",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r71-1_1",
+      "generation": "gen-1789308961-4dq2Poy3KfsVzG4SJyf0",
+      "reported_cost": "0.00271435",
+      "history_cost": "0.00271435",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r71-1_2",
+      "generation": "gen-1789308962-UeN7wFsrmkmVUnhUSbwa",
+      "reported_cost": "0.00274805",
+      "history_cost": "0.00274805",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r71-1_3",
+      "generation": "gen-1789308964-NVWGAfMGJ21pWOl1pIMZ",
+      "reported_cost": "0.0028927",
+      "history_cost": "0.0028927",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r71-1_4",
+      "generation": "gen-1789308966-reueXssCQ2ie74qt04ZB",
+      "reported_cost": "0.0029168",
+      "history_cost": "0.0029168",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r71-1_5",
+      "generation": "gen-1789308968-utSUeLtuFrUZF9TFPrP8",
+      "reported_cost": "0.00320815",
+      "history_cost": "0.00320815",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r71-1_6",
+      "generation": "gen-1789308971-5PbDXePqRIrOZkmkh6qq",
+      "reported_cost": "0.00333",
+      "history_cost": "0.00333",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r71-1_7",
+      "generation": "gen-1789308974-dTfVuB8TAYtgp5wuuhJI",
+      "reported_cost": "0.00423235",
+      "history_cost": "0.00423235",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d94-2_0",
+      "generation": "gen-1789309749-evmaVzQTASJwZbb5xQVd",
+      "reported_cost": "0.00232335",
+      "history_cost": "0.00232335",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d94-2_1",
+      "generation": "gen-1789309762-ekzZSIHmg2yTBlb4dDjU",
+      "reported_cost": "0.00459845",
+      "history_cost": "0.00459845",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-d63-1_0",
+      "generation": "gen-1789309785-5z9mTcANPYIoAatEAidr",
+      "reported_cost": "0.00115855",
+      "history_cost": "0.00115855",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-d63-1_1",
+      "generation": "gen-1789309792-q81BV9IpvPcwR8DagF86",
+      "reported_cost": "0.0031259",
+      "history_cost": "0.0031259",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r86-2_0",
+      "generation": "gen-1789309812-H8jCt978dTDtXL5VZvnd",
+      "reported_cost": "0.0016892",
+      "history_cost": "0.0016892",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r86-2_1",
+      "generation": "gen-1789309817-j0CR0NqOzYePTEQLyoLg",
+      "reported_cost": "0.0010302",
+      "history_cost": "0.0010302",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r86-2_2",
+      "generation": "gen-1789309818-m7mixiPvsBB1tvxnFYYo",
+      "reported_cost": "0.0009959",
+      "history_cost": "0.0009959",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r86-2_3",
+      "generation": "gen-1789309819-0CoDU8JSWumswYavv20X",
+      "reported_cost": "0.0031872",
+      "history_cost": "0.0031872",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r24-1_0",
+      "generation": "gen-1789309827-bro0iY8iS984wgzuJkAO",
+      "reported_cost": "0.00384535",
+      "history_cost": "0.00384535",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r86-1_0",
+      "generation": "gen-1789309837-5pXb5cXGHoGNZXAPTalC",
+      "reported_cost": "0.0023032",
+      "history_cost": "0.0023032",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-d41-1_0",
+      "generation": "gen-1789309847-BL19C4AT4Kjf1FAqyDi7",
+      "reported_cost": "0.00292125",
+      "history_cost": "0.00292125",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-d94-1_0",
+      "generation": "gen-1789309857-L5hLoUU8M8eBPPulzuGb",
+      "reported_cost": "0.00281225",
+      "history_cost": "0.00281225",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-d41-2_0",
+      "generation": "gen-1789309867-qZrYKrGb1Nu2FO8LXgtn",
+      "reported_cost": "0.00332525",
+      "history_cost": "0.00332525",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r39-2_0",
+      "generation": "gen-1789309883-6f2L4miduQHE9IZqa61R",
+      "reported_cost": "0.00147115",
+      "history_cost": "0.00147115",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r39-2_1",
+      "generation": "gen-1789309887-m6OL1Y35EFVtkhjh6s1f",
+      "reported_cost": "0.00105145",
+      "history_cost": "0.00105145",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r39-2_2",
+      "generation": "gen-1789309888-1mNw79SKxmOglVJ1x1ba",
+      "reported_cost": "0.0038222",
+      "history_cost": "0.0038222",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r24-2_0",
+      "generation": "gen-1789309958-ACJSNSort7PghPB3krDC",
+      "reported_cost": "0.00326635",
+      "history_cost": "0.00326635",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r24-2_1",
+      "generation": "gen-1789309964-SfuvRSZbRc1SX1tTtjIJ",
+      "reported_cost": "0.00273305",
+      "history_cost": "0.00273305",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r24-2_2",
+      "generation": "gen-1789309965-lFroAWBSBucoMG8ra8hU",
+      "reported_cost": "0.0028597",
+      "history_cost": "0.0028597",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r24-2_3",
+      "generation": "gen-1789309968-1WxJ7lf31fykGagVQhcL",
+      "reported_cost": "0.0040685",
+      "history_cost": "0.0040685",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r39-2_0",
+      "generation": "gen-1789309976-bszgQFXbLyiyfJzgnC87",
+      "reported_cost": "0.00119705",
+      "history_cost": "0.00119705",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r39-2_1",
+      "generation": "gen-1789309978-eW8G6XSU9kdvfM8wqAsC",
+      "reported_cost": "0.0029661",
+      "history_cost": "0.0029661",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d28-2_0",
+      "generation": "gen-1789309986-MwPWbmApUyhvDTnDKhM7",
+      "reported_cost": "0.00209535",
+      "history_cost": "0.00209535",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r24-2_0",
+      "generation": "gen-1789309997-Jl2BiX88Q05xwX0F4FdN",
+      "reported_cost": "0.00418745",
+      "history_cost": "0.00418745",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r52-2_0",
+      "generation": "gen-1789310009-taitkqpb8YWAXtiFup8i",
+      "reported_cost": "0.00129135",
+      "history_cost": "0.00129135",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r52-2_1",
+      "generation": "gen-1789310014-4T7osVy38rwzH0aiiXX9",
+      "reported_cost": "0.00247175",
+      "history_cost": "0.00247175",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r86-1_0",
+      "generation": "gen-1789310025-1dZH1SCeuGm5fGsjfuCA",
+      "reported_cost": "0.0014893",
+      "history_cost": "0.0014893",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r86-1_1",
+      "generation": "gen-1789310029-Ma6Voim0SrcJGQWVZLDZ",
+      "reported_cost": "0.0009713",
+      "history_cost": "0.0009713",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r86-1_2",
+      "generation": "gen-1789310030-BDRCtf2aY9bZjO5YU3Gt",
+      "reported_cost": "0.0010106",
+      "history_cost": "0.0010106",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r86-1_3",
+      "generation": "gen-1789310031-CJYspIQNwlm6DrgtmGdW",
+      "reported_cost": "0.0035586",
+      "history_cost": "0.0035586",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d63-1_0",
+      "generation": "gen-1789310044-VvlmS6N6q3LVwNA5Is2I",
+      "reported_cost": "0.00136165",
+      "history_cost": "0.00136165",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d63-1_1",
+      "generation": "gen-1789310050-a6yWPhq5w2EeyF0SaMqa",
+      "reported_cost": "0.002652",
+      "history_cost": "0.002652",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r86-2_0",
+      "generation": "gen-1789310060-21k4VX4KThaLmRXRG9sU",
+      "reported_cost": "0.0028563",
+      "history_cost": "0.0028563",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d41-1_0",
+      "generation": "gen-1789310078-5bolZbrS34zvAOtw0u5J",
+      "reported_cost": "0.00147435",
+      "history_cost": "0.00147435",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d41-1_1",
+      "generation": "gen-1789310079-r8QKdipUmqrxGazucEgD",
+      "reported_cost": "0.00434315",
+      "history_cost": "0.00434315",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r24-1_0",
+      "generation": "gen-1789310091-vqZzoTNKZAnDzwSAaerp",
+      "reported_cost": "0.00413445",
+      "history_cost": "0.00413445",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r39-1_0",
+      "generation": "gen-1789310109-w2ba1IbBNywq9ZS7BGay",
+      "reported_cost": "0.00150005",
+      "history_cost": "0.00150005",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r39-1_1",
+      "generation": "gen-1789310119-IijLfrhWXfxE5V65guE5",
+      "reported_cost": "0.0028131",
+      "history_cost": "0.0028131",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d94-1_0",
+      "generation": "gen-1789310132-nZrKoTCpyzYGrTocMWjJ",
+      "reported_cost": "0.00212235",
+      "history_cost": "0.00212235",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d94-1_1",
+      "generation": "gen-1789310137-Qiot13YapDPn2KJgXNrM",
+      "reported_cost": "0.00144435",
+      "history_cost": "0.00144435",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d94-1_2",
+      "generation": "gen-1789310139-rqrRQqMsTczvkel3JU5w",
+      "reported_cost": "0.00482545",
+      "history_cost": "0.00482545",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r71-2_0",
+      "generation": "gen-1789310169-xgcegmfbGzFNnK3Fprpq",
+      "reported_cost": "0.0035575",
+      "history_cost": "0.0035575",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r17-2_0",
+      "generation": "gen-1789310299-v25wEvF6Wu2YxIv6K9Wu",
+      "reported_cost": "0.0012136",
+      "history_cost": "0.0012136",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-r17-2_1",
+      "generation": "gen-1789310311-BxnnVrxGC0G78RpiAC1G",
+      "reported_cost": "0.00293925",
+      "history_cost": "0.00293925",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d41-2_0",
+      "generation": "gen-1789310342-5jvUhLMRSFBQXvISdXUQ",
+      "reported_cost": "0.00316335",
+      "history_cost": "0.00316335",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r52-1_0",
+      "generation": "gen-1789310360-f5VHCrLvOzmn5bQUeqiQ",
+      "reported_cost": "0.00111745",
+      "history_cost": "0.00111745",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r52-1_1",
+      "generation": "gen-1789310364-YwiejbKME6lH1IZvGEAh",
+      "reported_cost": "0.00257985",
+      "history_cost": "0.00257985",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r17-2_0",
+      "generation": "gen-1789310375-mFFjp8xoauGIYB3SUvdM",
+      "reported_cost": "0.0018677",
+      "history_cost": "0.0018677",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r17-2_1",
+      "generation": "gen-1789310384-p5YC64Onu6GhbQx6yCx8",
+      "reported_cost": "0.0025033",
+      "history_cost": "0.0025033",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r52-2_0",
+      "generation": "gen-1789310395-oxLdlHEzSlivbiF4X8nI",
+      "reported_cost": "0.00127045",
+      "history_cost": "0.00127045",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r52-2_1",
+      "generation": "gen-1789310400-uGHp68TBAx8Su1UUVH4R",
+      "reported_cost": "0.0006393",
+      "history_cost": "0.0006393",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r52-2_2",
+      "generation": "gen-1789310401-WR1bVS6FGSixVZFVA0Cy",
+      "reported_cost": "0.0027237",
+      "history_cost": "0.0027237",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d28-1_0",
+      "generation": "gen-1789310415-HDmnHPAgUCGbMnBBjQQX",
+      "reported_cost": "0.00119635",
+      "history_cost": "0.00119635",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d28-1_1",
+      "generation": "gen-1789310419-BY9HROrCwsqKYnE8bQyS",
+      "reported_cost": "0.0017393",
+      "history_cost": "0.0017393",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d28-1_2",
+      "generation": "gen-1789310422-M633FBYJfEmw2HbvT0gC",
+      "reported_cost": "0.0021016",
+      "history_cost": "0.0021016",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r71-1_0",
+      "generation": "gen-1789310427-Wu04T2aq9HNs3HinackM",
+      "reported_cost": "0.0045106",
+      "history_cost": "0.0045106",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-d94-2_0",
+      "generation": "gen-1789310444-9QwqzTfhsqZTA1zpOIzC",
+      "reported_cost": "0.00166725",
+      "history_cost": "0.00166725",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-d94-2_1",
+      "generation": "gen-1789310446-w5CivX1ph4Jh1Yq0bTdJ",
+      "reported_cost": "0.00471125",
+      "history_cost": "0.00471125",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r39-1_0",
+      "generation": "gen-1789310463-25DNzDuCVAu1PZJRASEo",
+      "reported_cost": "0.00238015",
+      "history_cost": "0.00238015",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-r71-2_0",
+      "generation": "gen-1789310474-xIYyuX2wBKy8P2aJABWO",
+      "reported_cost": "0.0041596",
+      "history_cost": "0.0041596",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d63-2_0",
+      "generation": "gen-1789310486-ydQNAxMITrOp5Ys8vEmF",
+      "reported_cost": "0.00130165",
+      "history_cost": "0.00130165",
+      "matched": true
+    },
+    {
+      "request": "evidence_structured-d63-2_1",
+      "generation": "gen-1789310492-VSQqejmzMGNDqdHb9kME",
+      "reported_cost": "0.002344",
+      "history_cost": "0.002344",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-d28-1_0",
+      "generation": "gen-1789310501-kJjmMkPaTTQPTUms4s6B",
+      "reported_cost": "0.00209825",
+      "history_cost": "0.00209825",
+      "matched": true
+    },
+    {
+      "request": "evidence_verified-d28-2_0",
+      "generation": "gen-1789310512-LVchpFvRnSOdQaVeUHHs",
+      "reported_cost": "0.00242525",
+      "history_cost": "0.00242525",
+      "matched": true
+    }
+  ]
+}

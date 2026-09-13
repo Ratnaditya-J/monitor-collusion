@@ -130,3 +130,7 @@ software checks are not empirical results of the newer experiment.
   where behavior cannot show it.
 
 Numbers come straight from the scripts. Limits are written down, not buried.
+
+## SpineFrame evidence integration
+
+The [self-contained evidence kernel](evidence_kernel/README.md) vendors SpineFrame signing and event-recording primitives with attribution. It adds ordered content commitments, a host-pinned signing key and snapshot verification. The [Qwen-only evidence study](studies/spineframe_qwen/PROTOCOL.md) compares unsigned structured records with the same signed records. Historical imports authenticate integrity since import, not original action truth or live capture. [Final results](studies/spineframe_qwen/RESULTS.md): 40 fixed Qwen-only slots, 37 completed and three operational failures. Neither condition achieved full focal-mechanism detection. On eight matched attacks, seven outcomes were identical and one improved only to a partial warning. New actual charges: $0.19689960. Signing intact historical records did not establish a reliable detection benefit.
