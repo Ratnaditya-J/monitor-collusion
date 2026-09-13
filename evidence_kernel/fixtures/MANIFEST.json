@@ -1,0 +1,46 @@
+{
+  "upstream_repository": "https://github.com/safety-research/sleight-bench",
+  "commit": "218c58315cc01ff0dc5a100e906c27d82d259521",
+  "cases": {
+    "r17": {
+      "sha256": "12c373c4ad3616aafe096271dc5987c98bae422922ac90ac959be42dc37899ea",
+      "source_batch": "source_fidelity"
+    },
+    "r71": {
+      "sha256": "5077a4a625b2f56c0409740638f4e680e685aad8ed5d80ed99bbd4d0ce5edcc5",
+      "source_batch": "source_fidelity"
+    },
+    "r39": {
+      "sha256": "7096ce34dcc10820192692592ebfcb448ec77168f26b4221889907ab61d633ed",
+      "source_batch": "source_fidelity"
+    },
+    "r24": {
+      "sha256": "0de3f8e71d0067fa566bc6b1de9e2fcd0d4f5569b1dca21cb067a4ee11f5b804",
+      "source_batch": "source_fidelity"
+    },
+    "r86": {
+      "sha256": "0e7748cd0df5cd4789966923004d62b6afa6154b2be77dbd8f9ee8337c212968",
+      "source_batch": "source_fidelity"
+    },
+    "r52": {
+      "sha256": "bf317f5065fd6cdf0196988e9907583f32bc50ee2298b48f221ef2f984a7b8d3",
+      "source_batch": "source_fidelity"
+    },
+    "d94": {
+      "sha256": "3542f863da29583126622b7dee86e40c2ec18848abf5356903204b8f1e6bddd0",
+      "source_batch": "source_dataflow"
+    },
+    "d41": {
+      "sha256": "3e086a87de977a31d40f064bc584c149550a6ea4565dd05a20767c0d6303a29c",
+      "source_batch": "source_dataflow"
+    },
+    "d28": {
+      "sha256": "edc80580ecdaf5e7c1e9a3e0b3c05716a12c3fcc3ba5fb21cb9efacf6945f3d5",
+      "source_batch": "source_dataflow"
+    },
+    "d63": {
+      "sha256": "6b1c0e31cb7cdcfa0534bb1093a31e918ee94bbfee1c3bec5cc930f100646c92",
+      "source_batch": "source_dataflow"
+    }
+  }
+}

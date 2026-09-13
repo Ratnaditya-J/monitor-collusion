@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/Ratnaditya-J/spineframe",
+  "commit": "4b0dc0780933ec3083cb8eb5356d3b024231d563",
+  "license": "Apache-2.0",
+  "files": {
+    "signing.py": "fd83005acbc714489f1d258d51fc1134fc95d5fd03c9aabbf1d50f077cefd80d",
+    "events.py": "8a652b7e4c77b14381dea86246a92861073313404ff183e43b00cec3746dd61f"
+  },
+  "hashing.py": "compute_root_hash extracted from src/spineframe/artifacts.py; unchanged function; module marked modified",
+  "scope": "Signing and append-only emission plus provenance aggregation. No workflow engine, controllers, UI, provider clients or claim heuristics."
+}
