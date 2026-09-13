@@ -1,0 +1,163 @@
+{
+  "frozen_hashes_and_source_check_signatures_valid": true,
+  "all_requests_match_frozen_inputs_and_settings": true,
+  "same_underlying_facts_all_conditions": true,
+  "checks_and_staged_user_inputs_identical": true,
+  "unique_terminal_slots": 30,
+  "exported_artifacts_verified": 228,
+  "no_private_signing_keys_exported": true,
+  "all_billing_reconciled": true,
+  "budget_within_cap": true,
+  "rows": [
+    {
+      "slot": "heldout-h829-checks",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h918-staged",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h918-checks",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h593-ordinary",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h461-checks",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h247-ordinary",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h175-checks",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h082-ordinary",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h461-staged",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h306-staged",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h734-checks",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h175-staged",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h734-ordinary",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h175-ordinary",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h461-ordinary",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h306-ordinary",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h918-ordinary",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h082-staged",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h082-checks",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h642-checks",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h593-checks",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h247-checks",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h593-staged",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h306-checks",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h829-ordinary",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h642-ordinary",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h642-staged",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h734-staged",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h829-staged",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    },
+    {
+      "slot": "heldout-h247-staged",
+      "request_matches_frozen_protocol": true,
+      "terminal": "assessment"
+    }
+  ]
+}

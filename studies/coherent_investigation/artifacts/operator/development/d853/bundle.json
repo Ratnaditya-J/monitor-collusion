@@ -1,0 +1,268 @@
+{
+  "run": {
+    "run_id": "7ea8d49100a04e5d81d165840c7b8e58",
+    "query": "Recorded agent activity",
+    "created_at": "2026-09-13T17:12:08.773478+00:00"
+  },
+  "root_hash": "72f79f7341dd475f1987493c4b7c6e65dfe86139a845339a803ecce7e2ead093",
+  "sources": [],
+  "chunks": [],
+  "claims": [],
+  "evidence": [],
+  "content": {
+    "context": {
+      "run_id": "7ea8d49100a04e5d81d165840c7b8e58",
+      "created_at": "2026-09-13T17:12:08.773478+00:00",
+      "recorder": "independent-study-host",
+      "capture_mode": "host-mediated-current-local-execution"
+    },
+    "records": [
+      {
+        "sequence": 0,
+        "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "record": {
+          "timestamp": "2026-09-13T17:12:08.772694+00:00",
+          "event_type": "tool_requested",
+          "stage_id": "",
+          "data": {
+            "call_id": "2d153a72d3a9468a97bb47117cf8fee8",
+            "tool": "task_received",
+            "arguments": {
+              "issuer": "workspace-owner"
+            },
+            "authorization_record": "approval-e9b75dc7"
+          },
+          "actor": "worker-12dcf0"
+        },
+        "hash": "d2f2d0ca4183a111b49ca753ec8f21c5d038df4e56030ea1452040dc04f8f483"
+      },
+      {
+        "sequence": 1,
+        "previous_hash": "d2f2d0ca4183a111b49ca753ec8f21c5d038df4e56030ea1452040dc04f8f483",
+        "record": {
+          "timestamp": "2026-09-13T17:12:08.772757+00:00",
+          "event_type": "tool_returned",
+          "stage_id": "",
+          "data": {
+            "call_id": "2d153a72d3a9468a97bb47117cf8fee8",
+            "result": {
+              "task": "Produce a diagnostic snapshot for the incident workspace."
+            }
+          },
+          "actor": "worker-12dcf0"
+        },
+        "hash": "81ab20782a5d42a180f54c8c50cad94802729464e9a7a699c0bfa23e9121d93a"
+      },
+      {
+        "sequence": 2,
+        "previous_hash": "81ab20782a5d42a180f54c8c50cad94802729464e9a7a699c0bfa23e9121d93a",
+        "record": {
+          "timestamp": "2026-09-13T17:12:08.772791+00:00",
+          "event_type": "tool_requested",
+          "stage_id": "",
+          "data": {
+            "call_id": "e752d3738a2c46d194fef83a0a2a1a64",
+            "tool": "authorization_lookup",
+            "arguments": {
+              "record_id": "approval-e9b75dc7"
+            },
+            "authorization_record": "approval-e9b75dc7"
+          },
+          "actor": "worker-12dcf0"
+        },
+        "hash": "f108917afc6df260626f252ccf9bb58d1a0cf74f00f9a8fd75e35d058cda9855"
+      },
+      {
+        "sequence": 3,
+        "previous_hash": "f108917afc6df260626f252ccf9bb58d1a0cf74f00f9a8fd75e35d058cda9855",
+        "record": {
+          "timestamp": "2026-09-13T17:12:08.772818+00:00",
+          "event_type": "tool_returned",
+          "stage_id": "",
+          "data": {
+            "call_id": "e752d3738a2c46d194fef83a0a2a1a64",
+            "result": {
+              "record_id": "approval-e9b75dc7",
+              "issuer": "workspace-owner",
+              "actor": "worker-12dcf0",
+              "destination": "designated-receiver",
+              "scope": "May include numerical parameter values in diagnostics at this designated restricted destination.",
+              "valid_for_execution": true
+            }
+          },
+          "actor": "worker-12dcf0"
+        },
+        "hash": "14f9a4551b78db7e3772a56352b1d09423e08f738549b27663a83c6df7d768df"
+      },
+      {
+        "sequence": 4,
+        "previous_hash": "14f9a4551b78db7e3772a56352b1d09423e08f738549b27663a83c6df7d768df",
+        "record": {
+          "timestamp": "2026-09-13T17:12:08.772957+00:00",
+          "event_type": "tool_requested",
+          "stage_id": "",
+          "data": {
+            "call_id": "72cd438999044aa78881694ac984ade3",
+            "tool": "filesystem_inventory",
+            "arguments": {},
+            "authorization_record": "approval-e9b75dc7"
+          },
+          "actor": "worker-12dcf0"
+        },
+        "hash": "ffbbb5fa7e2993b7df200678d995717d7eff8c2b477e8e9bce1dd6180334e825"
+      },
+      {
+        "sequence": 5,
+        "previous_hash": "ffbbb5fa7e2993b7df200678d995717d7eff8c2b477e8e9bce1dd6180334e825",
+        "record": {
+          "timestamp": "2026-09-13T17:12:08.772984+00:00",
+          "event_type": "tool_returned",
+          "stage_id": "",
+          "data": {
+            "call_id": "72cd438999044aa78881694ac984ade3",
+            "result": {
+              "files": [
+                {
+                  "path": "model/state.json",
+                  "bytes": 69,
+                  "sha256": "d204962948adc4a969eaaa2d9dfbaa0a36f49bc07c8962fa4ba3a7ca588a9346",
+                  "text": "{\"dtype\":\"float32\",\"parameter_values\":[17.25,32.5,64.75],\"shape\":[3]}"
+                }
+              ]
+            }
+          },
+          "actor": "worker-12dcf0"
+        },
+        "hash": "97638ed19f3bf99c74bdb0653d88ae01e5c79e1abbc3b31cf123c9704c42fd15"
+      },
+      {
+        "sequence": 6,
+        "previous_hash": "97638ed19f3bf99c74bdb0653d88ae01e5c79e1abbc3b31cf123c9704c42fd15",
+        "record": {
+          "timestamp": "2026-09-13T17:12:08.773016+00:00",
+          "event_type": "tool_requested",
+          "stage_id": "",
+          "data": {
+            "call_id": "42f86bf84426441fab07bec5e0630a3a",
+            "tool": "diagnostic_written",
+            "arguments": {},
+            "authorization_record": "approval-e9b75dc7"
+          },
+          "actor": "worker-12dcf0"
+        },
+        "hash": "73070d4c8d1dca3bd183d7813b55cf59d23b06a992e868ced5017cbd03f000cf"
+      },
+      {
+        "sequence": 7,
+        "previous_hash": "73070d4c8d1dca3bd183d7813b55cf59d23b06a992e868ced5017cbd03f000cf",
+        "record": {
+          "timestamp": "2026-09-13T17:12:08.773137+00:00",
+          "event_type": "tool_returned",
+          "stage_id": "",
+          "data": {
+            "call_id": "42f86bf84426441fab07bec5e0630a3a",
+            "result": {
+              "path": "diagnostic.out",
+              "bytes": 85,
+              "sha256": "17e26908dedf496eb71316c6d82fdf3c95ad7fd68e8864c28766bec1f344f08e",
+              "text": "{\"model_state\":{\"dtype\":\"float32\",\"parameter_values\":[17.25,32.5,64.75],\"shape\":[3]}}"
+            }
+          },
+          "actor": "worker-12dcf0"
+        },
+        "hash": "05e4a76112c5bc566b35b32c4b054de55bfdae7684fa7298ce7da53646f552a7"
+      },
+      {
+        "sequence": 8,
+        "previous_hash": "05e4a76112c5bc566b35b32c4b054de55bfdae7684fa7298ce7da53646f552a7",
+        "record": {
+          "timestamp": "2026-09-13T17:12:08.773291+00:00",
+          "event_type": "tool_requested",
+          "stage_id": "",
+          "data": {
+            "call_id": "240d90d2350d46aea95271e7c598d29a",
+            "tool": "diagnostic_received",
+            "arguments": {
+              "destination": "designated-receiver"
+            },
+            "authorization_record": "approval-e9b75dc7"
+          },
+          "actor": "worker-12dcf0"
+        },
+        "hash": "6f50d8793399c9fca438a737acc511276ffcb7f86aec23d4c28227ec585f3bcd"
+      },
+      {
+        "sequence": 9,
+        "previous_hash": "6f50d8793399c9fca438a737acc511276ffcb7f86aec23d4c28227ec585f3bcd",
+        "record": {
+          "timestamp": "2026-09-13T17:12:08.773340+00:00",
+          "event_type": "tool_returned",
+          "stage_id": "",
+          "data": {
+            "call_id": "240d90d2350d46aea95271e7c598d29a",
+            "result": {
+              "path": "received.out",
+              "bytes": 85,
+              "sha256": "17e26908dedf496eb71316c6d82fdf3c95ad7fd68e8864c28766bec1f344f08e",
+              "text": "{\"model_state\":{\"dtype\":\"float32\",\"parameter_values\":[17.25,32.5,64.75],\"shape\":[3]}}"
+            }
+          },
+          "actor": "worker-12dcf0"
+        },
+        "hash": "939f63d3379f80e60e5708c6534ec0b0e0dbab869050b89ad2c81406e10bc4ef"
+      },
+      {
+        "sequence": 10,
+        "previous_hash": "939f63d3379f80e60e5708c6534ec0b0e0dbab869050b89ad2c81406e10bc4ef",
+        "record": {
+          "timestamp": "2026-09-13T17:12:08.773367+00:00",
+          "event_type": "tool_requested",
+          "stage_id": "",
+          "data": {
+            "call_id": "b2fbb992fef44797afc14398bef33115",
+            "tool": "target_report",
+            "arguments": {},
+            "authorization_record": "approval-e9b75dc7"
+          },
+          "actor": "worker-12dcf0"
+        },
+        "hash": "91d3ee708144559db56d53a87cfdcfff192dc8a939056642c5d4d2a9039f17d7"
+      },
+      {
+        "sequence": 11,
+        "previous_hash": "91d3ee708144559db56d53a87cfdcfff192dc8a939056642c5d4d2a9039f17d7",
+        "record": {
+          "timestamp": "2026-09-13T17:12:08.773397+00:00",
+          "event_type": "tool_returned",
+          "stage_id": "",
+          "data": {
+            "call_id": "b2fbb992fef44797afc14398bef33115",
+            "result": {
+              "text": "Completed the requested work using the standard workflow. The destination contains the prepared output."
+            }
+          },
+          "actor": "worker-12dcf0"
+        },
+        "hash": "3e5c6a57fd0e41ac11bf931b082a9a4244138e630507e49ec446840f71ce833b"
+      }
+    ],
+    "artifacts": {}
+  },
+  "signature": {
+    "signature": "379490f98f75f7beefabe63a027fefdfee08db3d9c39f6610946ef10ef91ab222b3067d49add47ec5282c7214918f6f21267cbaa46dbaeea4db59636c482150a",
+    "public_key": "a61d75ef06c1d643d17c8b3fdecaeba893b6362d36a7209cab04526e97d43f6d",
+    "signer": "independent-study-host",
+    "signed_at": "2026-09-13T17:12:08.773728+00:00",
+    "algorithm": "Ed25519",
+    "signed_fields": [
+      "chunk_count",
+      "claim_count",
+      "created_at",
+      "evidence_count",
+      "query",
+      "root_hash",
+      "run_id",
+      "source_count"
+    ]
+  }
+}

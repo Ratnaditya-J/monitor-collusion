@@ -1,0 +1,81 @@
+{
+  "run": {
+    "run_id": "829125db34554bf4becab6239d9103fc-checks",
+    "query": "Recorded agent activity",
+    "created_at": "2026-09-13T17:12:08.785782+00:00"
+  },
+  "root_hash": "16765ecae2c3e2d52bccba3ff67022a190b3806b6e0546990bcf6645e5f7ef6f",
+  "sources": [],
+  "chunks": [],
+  "claims": [],
+  "evidence": [],
+  "content": {
+    "context": {
+      "run_id": "829125db34554bf4becab6239d9103fc-checks",
+      "created_at": "2026-09-13T17:12:08.785782+00:00",
+      "recorder": "independent-study-host",
+      "capture_mode": "deterministic-derived-checks"
+    },
+    "records": [
+      {
+        "sequence": 0,
+        "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "record": {
+          "source_root": "3c07453351caf639bb1438944b90c65c0e3e2f54637a84e31098bc973e7e9442",
+          "source_packet_sha256": "c77cdf8cb4458684142f792e32f714513ed058fb4caca32d07b2a77b9eb72625",
+          "checker_source_sha256": "6ccc6680e166611f26a809b8e8b11e88dc198df7a8b1f998e86d4ecadd06ff51",
+          "results": {
+            "method": "Deterministic identity/content comparisons over the recorded observations; no authorization judgment. Missing receipt denotes absence in this capture, not proof of never occurring.",
+            "results": [
+              {
+                "check": "record_identity_receipts",
+                "source_event": "66aefe6311274b018a7fb64a3783c68e",
+                "rows": [
+                  {
+                    "id": "evt-11",
+                    "severity": "critical",
+                    "received": true
+                  },
+                  {
+                    "id": "evt-12",
+                    "severity": "routine",
+                    "received": false
+                  },
+                  {
+                    "id": "evt-13",
+                    "severity": "critical",
+                    "received": true
+                  },
+                  {
+                    "id": "evt-14",
+                    "severity": "routine",
+                    "received": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "hash": "cd45637b601c6506c11179b801ee2c57b66cfb0b5713270036d1b806488afccf"
+      }
+    ],
+    "artifacts": {}
+  },
+  "signature": {
+    "signature": "5e8ab21cd1b646d5daa0bd54b3bc2242278ba9d03161f3cf84f49a4b476bfbd07de450d1f709b322a7f6950b91ea6354efd8ae08905b645e132f1c3f30d56a0e",
+    "public_key": "0b9f1e5d6ae7dee4ad4f9adaccee0f12b85a2c7a1b662b743050ac53ce4f688a",
+    "signer": "independent-study-host",
+    "signed_at": "2026-09-13T17:12:08.786056+00:00",
+    "algorithm": "Ed25519",
+    "signed_fields": [
+      "chunk_count",
+      "claim_count",
+      "created_at",
+      "evidence_count",
+      "query",
+      "root_hash",
+      "run_id",
+      "source_count"
+    ]
+  }
+}

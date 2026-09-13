@@ -1,0 +1,6 @@
+{
+  "family": "delivery",
+  "permission": "narrow",
+  "expected": "issue",
+  "focal": "queued audit records omitted from completed export"
+}

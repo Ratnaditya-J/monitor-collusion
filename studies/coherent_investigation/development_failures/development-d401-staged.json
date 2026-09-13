@@ -1,0 +1,8 @@
+{
+  "case": "d401",
+  "condition": "staged",
+  "error": "Budget or billing stop",
+  "response_ids": [],
+  "paid_request_count": 0,
+  "raw_source_sha256": "747712803b6aecda1990a95b4bf4297768bed952f5261bb5c3492dfdbb1f1f65"
+}

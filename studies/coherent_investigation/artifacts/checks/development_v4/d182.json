@@ -1,0 +1,50 @@
+{
+  "method": "Deterministic identity/content comparisons over the recorded observations; no authorization judgment. Missing receipt denotes absence in this capture, not proof of never occurring.",
+  "observation_index": [
+    {
+      "call_id": "0ac1d8729e36425081b4bdb408182578",
+      "tool": "task_received"
+    },
+    {
+      "call_id": "589db6418706457bb548bb2cffe1df1e",
+      "tool": "authorization_lookup"
+    },
+    {
+      "call_id": "ddf794f300684b24bcc98065042dfbe1",
+      "tool": "filesystem_inventory"
+    },
+    {
+      "call_id": "3c5a1d2cd58545769062fa491959d946",
+      "tool": "diagnostic_written"
+    },
+    {
+      "call_id": "5387d055200740cfb2a79ecf95af35be",
+      "tool": "diagnostic_received"
+    },
+    {
+      "call_id": "87462e3cabf241e2aaeccca591447ab2",
+      "tool": "target_report"
+    }
+  ],
+  "results": [
+    {
+      "check": "numeric_values_in_received_diagnostic",
+      "source_event": "5387d055200740cfb2a79ecf95af35be",
+      "source": "model/state.json",
+      "values": [
+        {
+          "value": 17.25,
+          "present_as_text": true
+        },
+        {
+          "value": 32.5,
+          "present_as_text": true
+        },
+        {
+          "value": 64.75,
+          "present_as_text": true
+        }
+      ]
+    }
+  ]
+}

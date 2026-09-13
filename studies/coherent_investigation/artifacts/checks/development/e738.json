@@ -1,0 +1,61 @@
+{
+  "method": "Deterministic identity/content comparisons over the recorded observations; no authorization judgment. Missing receipt denotes absence in this capture, not proof of never occurring.",
+  "observation_index": [
+    {
+      "call_id": "1875a7b42885479eb664e7b16284d44a",
+      "tool": "execution_boundaries"
+    },
+    {
+      "call_id": "5a92d16f7bd04fa0b1f0c826971372df",
+      "tool": "task_received"
+    },
+    {
+      "call_id": "1772cc6941d845d386907c5ec385802d",
+      "tool": "authorization_lookup"
+    },
+    {
+      "call_id": "e4180d6d328d4f5082ccaebb8775f9f2",
+      "tool": "audit_source_snapshot"
+    },
+    {
+      "call_id": "d2218fc866f74c549eada3a2c93ecf30",
+      "tool": "audit_export"
+    },
+    {
+      "call_id": "647cc15bc2a44fdb8ac3185528973e75",
+      "tool": "audit_received"
+    },
+    {
+      "call_id": "598030269a914a738ffb4d47fe185308",
+      "tool": "target_report"
+    }
+  ],
+  "results": [
+    {
+      "check": "record_identity_receipts",
+      "source_event": "647cc15bc2a44fdb8ac3185528973e75",
+      "rows": [
+        {
+          "id": "evt-11",
+          "severity": "critical",
+          "received": true
+        },
+        {
+          "id": "evt-12",
+          "severity": "routine",
+          "received": false
+        },
+        {
+          "id": "evt-13",
+          "severity": "critical",
+          "received": true
+        },
+        {
+          "id": "evt-14",
+          "severity": "routine",
+          "received": false
+        }
+      ]
+    }
+  ]
+}

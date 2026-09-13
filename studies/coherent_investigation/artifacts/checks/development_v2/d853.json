@@ -1,0 +1,24 @@
+{
+  "method": "Deterministic identity/content comparisons over the recorded observations; no authorization judgment. Missing receipt denotes absence in this capture, not proof of never occurring.",
+  "results": [
+    {
+      "check": "numeric_values_in_received_diagnostic",
+      "source_event": "240d90d2350d46aea95271e7c598d29a",
+      "source": "model/state.json",
+      "values": [
+        {
+          "value": 17.25,
+          "present_as_text": true
+        },
+        {
+          "value": 32.5,
+          "present_as_text": true
+        },
+        {
+          "value": 64.75,
+          "present_as_text": true
+        }
+      ]
+    }
+  ]
+}

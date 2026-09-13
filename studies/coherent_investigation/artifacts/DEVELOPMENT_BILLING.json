@@ -1,0 +1,172 @@
+{
+  "rows": [
+    {
+      "request": "coherent_development-d401-ordinary_0",
+      "response": "gen-1789319586-pZEglPrOc7n7cErFP2Ox",
+      "actual_cost_usd": "0.00440605",
+      "reported_prompt_tokens": 2067,
+      "serialized_request_bytes": 6323,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development-d401-checks_0",
+      "response": "gen-1789319660-aDg3u21qhwgiqNiwk6Vt",
+      "actual_cost_usd": "0.0044521",
+      "reported_prompt_tokens": 2374,
+      "serialized_request_bytes": 7186,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development_v2-d401-ordinary_0",
+      "response": "gen-1789319750-OtGMdX8vTGZHI9U9ZiJG",
+      "actual_cost_usd": "0.00186485",
+      "reported_prompt_tokens": 2119,
+      "serialized_request_bytes": 6636,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development_v2-d401-checks_0",
+      "response": "gen-1789319763-dcUtEK8pB4JB8V53ZXPl",
+      "actual_cost_usd": "0.0063149",
+      "reported_prompt_tokens": 2426,
+      "serialized_request_bytes": 7499,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development_v2-d401-staged_0",
+      "response": "gen-1789319917-Ryete04u4FEnS4dvCfob",
+      "actual_cost_usd": "0.0024095",
+      "reported_prompt_tokens": 2410,
+      "serialized_request_bytes": 7462,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development_v2-d927-ordinary_0",
+      "response": "gen-1789319938-DPcP0gfRhuZl8SHNadXw",
+      "actual_cost_usd": "0.00401065",
+      "reported_prompt_tokens": 2111,
+      "serialized_request_bytes": 6600,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development_v2-d927-checks_0",
+      "response": "gen-1789320000-a34NFA6rjV73Dr5YButJ",
+      "actual_cost_usd": "0.00388555",
+      "reported_prompt_tokens": 2417,
+      "serialized_request_bytes": 7463,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development_v2-d927-staged_0",
+      "response": "gen-1789320055-Nc7Y9QsBkK8JFpfSjGUd",
+      "actual_cost_usd": "0.00240815",
+      "reported_prompt_tokens": 2401,
+      "serialized_request_bytes": 7426,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development_v3-d401-staged_0",
+      "response": "gen-1789320087-Q7SkxamQDOkMpvyIA08M",
+      "actual_cost_usd": "0.0044575",
+      "reported_prompt_tokens": 2410,
+      "serialized_request_bytes": 7462,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development_v3-d927-staged_0",
+      "response": "gen-1789320112-xemPFRuwUgiWj5yDNN2J",
+      "actual_cost_usd": "0.00445615",
+      "reported_prompt_tokens": 2401,
+      "serialized_request_bytes": 7426,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development_v4-d401-checks_0",
+      "response": "gen-1789320350-dLC40XabMl07bAMBw8mJ",
+      "actual_cost_usd": "0.0067559",
+      "reported_prompt_tokens": 2746,
+      "serialized_request_bytes": 8190,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development_v4-d401-staged_0",
+      "response": "gen-1789320401-z94yQhPbby5KK8j7sCWj",
+      "actual_cost_usd": "0.0083993",
+      "reported_prompt_tokens": 2842,
+      "serialized_request_bytes": 8771,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development_v4-d927-checks_0",
+      "response": "gen-1789320445-KUaoQWg8Lx8CtdgWVdHU",
+      "actual_cost_usd": "0.00596655",
+      "reported_prompt_tokens": 2737,
+      "serialized_request_bytes": 8154,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development_v4-d927-staged_0",
+      "response": "gen-1789320476-QGT4ZSE5Mg30eGBZfdB3",
+      "actual_cost_usd": "0.00495595",
+      "reported_prompt_tokens": 2833,
+      "serialized_request_bytes": 8735,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development-e401-ordinary_0",
+      "response": "gen-1789320563-qbrvBMgmEUSxRIi8rXtw",
+      "actual_cost_usd": "0.0067585",
+      "reported_prompt_tokens": 2550,
+      "serialized_request_bytes": 7679,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development-e401-checks_0",
+      "response": "gen-1789320600-tom4hrE3VswG4OZJkepf",
+      "actual_cost_usd": "0.0080548",
+      "reported_prompt_tokens": 3232,
+      "serialized_request_bytes": 9348,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development-e401-staged_0",
+      "response": "gen-1789320644-CZEj0vNxv03obVh2TImv",
+      "actual_cost_usd": "0.0086912",
+      "reported_prompt_tokens": 3328,
+      "serialized_request_bytes": 9929,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development-e927-ordinary_0",
+      "response": "gen-1789320688-P7nIITY8SEg0uomzN1fX",
+      "actual_cost_usd": "0.00480435",
+      "reported_prompt_tokens": 2469,
+      "serialized_request_bytes": 7643,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development-e927-checks_0",
+      "response": "gen-1789320713-stlNjzqT7G7cKLlOJWMv",
+      "actual_cost_usd": "0.0051124",
+      "reported_prompt_tokens": 3136,
+      "serialized_request_bytes": 9312,
+      "prompt_tokens_within_byte_bound": true
+    },
+    {
+      "request": "coherent_development-e927-staged_0",
+      "response": "gen-1789320741-WzIPYpfTy6HtgyaLtIk3",
+      "actual_cost_usd": "0.0058788",
+      "reported_prompt_tokens": 3232,
+      "serialized_request_bytes": 9893,
+      "prompt_tokens_within_byte_bound": true
+    }
+  ],
+  "all_prompt_tokens_within_serialized_byte_bounds": true,
+  "budget": {
+    "cap_usd": "1",
+    "reported_cost_usd": "0.70201625",
+    "held_usd": "0",
+    "available_usd": "0.29798375",
+    "this_study_usd": "0.10404315"
+  }
+}

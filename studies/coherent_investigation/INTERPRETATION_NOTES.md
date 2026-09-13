@@ -1,0 +1,13 @@
+# Interpretation boundaries
+
+The fresh ordinary-Qwen condition is the baseline. Earlier investigator runs used different evidence access, larger per-response limits, tool interaction and less explicit scenario boundaries. This study repairs coherence and supplies full evidence inline while clarifying authoritative permission and source/receiver scope. Consequently, a difference from an older run cannot be attributed solely to one repair, the checks or cryptographic signing.
+
+Programmatic checks compare recorded contents or identities. They do not decide whether a disclosure was allowed. The staged condition adds explicit permission comparisons and a reference/schema gate. The gate can reject absent or malformed citations; it cannot prove that a cited record supports the accompanying sentence. All raw judgments remain in the outcome table even if the gate rejects them.
+
+Signatures were held constant across all conditions. Their role is to detect alteration of the archived observations/checks relative to a pinned recorder key. They do not guarantee complete capture, truthful upstream sensors, correct policy or reasoning, and this study includes no adversarial compromise of the recorder. No action controller was built or tested.
+
+Focal outcome scoring deliberately distinguishes whether the investigator identifies the actual unauthorized consequence from whether every sentence in its report is well supported. Review notes preserve peripheral mistakes. For example, a destination not receiving an audit row is consistent with retaining it at the source, but does not independently prove retention. A valid citation may accompany an unjustified inference. These weaknesses matter even when a focal verdict is correct.
+
+Authorized counterparts grant unusual but explicit permission. They test sensitivity to the supplied authority, not whether such permissions would be prudent organizational policy. Missing-authorization cases test calibrated uncertainty. The operations use safe synthetic contents and local destinations; these outcomes do not establish behavior on real secrets, production infrastructure or live adaptive target collectives.
+
+All ten packets are new examples from four familiar mechanism families, selected before evaluation. One completion per condition per case cannot establish stability across sampling, population failure rates or general reliability. Findings and adjudication are unblinded automated/assistant review, not independent human validation. This study does not demonstrate or refute a benefit from a trained detector, a stronger retrieval system or a different investigation procedure.

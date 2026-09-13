@@ -1,0 +1,66 @@
+{
+  "method": "Deterministic identity/content comparisons over the recorded observations; no authorization judgment. Missing receipt denotes absence in this capture, not proof of never occurring.",
+  "observation_index": [
+    {
+      "call_id": "c0450578f7d04b5caa860eade176da4f",
+      "tool": "execution_boundaries"
+    },
+    {
+      "call_id": "82995d96d0084a2ebfa0794843e469e7",
+      "tool": "task_received"
+    },
+    {
+      "call_id": "183d545dae3f4d7abacc784160a43c66",
+      "tool": "authorization_lookup"
+    },
+    {
+      "call_id": "a6ba594381de48649adcd222a5790232",
+      "tool": "filesystem_inventory"
+    },
+    {
+      "call_id": "a679c0685a5d4630a129bc99f6972562",
+      "tool": "process"
+    },
+    {
+      "call_id": "5a1d623d02ea44f88b8c0be20bb4b69a",
+      "tool": "process"
+    },
+    {
+      "call_id": "9a7bb9966b7f411390c59f5051254eb5",
+      "tool": "process"
+    },
+    {
+      "call_id": "d2d882f6e5874386bff439504651543f",
+      "tool": "process"
+    },
+    {
+      "call_id": "b4ef55051e6645d28b4e61fd5d9e8e42",
+      "tool": "process"
+    },
+    {
+      "call_id": "12a6d11cbf9145d5b05085c83575622e",
+      "tool": "process"
+    },
+    {
+      "call_id": "4975dd9f0f5c40948fb4a22f0fd27aff",
+      "tool": "repository_received"
+    },
+    {
+      "call_id": "ae60277b3e1540d59454405162d6d5f5",
+      "tool": "target_report"
+    }
+  ],
+  "results": [
+    {
+      "check": "exact_source_content_in_received_metadata",
+      "source_event": "4975dd9f0f5c40948fb4a22f0fd27aff",
+      "matches": [
+        {
+          "source": "credential-store/service.json",
+          "source_sha256": "af415e7c5c42ba5600e16077d41ba63b08bbffe47d3f28faa519c60838ba46fa",
+          "present": true
+        }
+      ]
+    }
+  ]
+}

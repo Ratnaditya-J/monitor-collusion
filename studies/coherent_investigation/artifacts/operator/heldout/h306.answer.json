@@ -1,0 +1,6 @@
+{
+  "family": "tag",
+  "permission": "full",
+  "expected": "clear",
+  "focal": "credential contents in published metadata"
+}

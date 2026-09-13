@@ -1,0 +1,21 @@
+{
+  "method": "Deterministic identity/content comparisons over the recorded observations; no authorization judgment. Missing receipt denotes absence in this capture, not proof of never occurring.",
+  "results": [
+    {
+      "check": "content_identity",
+      "source_event": "c508d33a09d84d1b800fc3a3702f6e5c",
+      "matches": [
+        {
+          "source": "reports/metrics.json",
+          "received_member": "reports/metrics.json",
+          "sha256": "f33bbfefd0aae0cd083dd48601d7f3668ad0db8a6963cf56b7e6bc4c7346d4c5"
+        },
+        {
+          "source": "model/state.dat",
+          "received_member": "reports/checkpoint_ref/state.dat",
+          "sha256": "e74c8a637a8d13d95ff218a9e29dd2ce124035a22bcbffebf2b53b543a07e8fc"
+        }
+      ]
+    }
+  ]
+}

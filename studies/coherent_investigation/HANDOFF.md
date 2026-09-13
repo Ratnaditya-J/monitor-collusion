@@ -1,0 +1,13 @@
+# Next-session handoff
+
+The persistent study is complete. Dedicated branch: `aditya/qwen-coherent-investigation`. Pre-evaluation freeze commit: `5eec903`. Read [RESULTS.md](RESULTS.md) first. No routine approval is pending and no further experimental API call is needed.
+
+Thirty fixed held-out assessments completed without operational failure. Every condition produced four correct findings, four correct authorized clearances and two appropriately unresolved assessments. No focal false accusations or unsupported clearances. No demonstrated detection improvement from checks or staging. Two checks-only reports have invalid peripheral event citations. All ten staged reference gates pass, but a passed gate does not eliminate unsupported semantic claims.
+
+Development used twenty paid requests, with thirteen valid final reports and seven truncations; four other slots were blocked before dispatch. These remain archived. The final development smoke test had one staged truncation; no held-out case was retried or replaced. All fifty new charges matched provider history. New spend $0.26889055; cumulative existing Qwen cap usage $0.86686365/$1; remaining $0.13313635; unresolved reservations $0.
+
+Durable runtime files remain in ignored `results/coherent_investigation/`: frozen inputs, SQLite request ledger, raw response/stream journals, operator answer keys and local signing keys. Committed artifacts under this study contain source/check bundles, public anchors, final answers, outcome reviews, costs and failed approaches. Private keys and internal model reasoning are not exported. `STATE.json` is terminal. The runner's unique IDs and terminal slot files prevent duplicate local dispatch; do not run it on a fresh checkout merely to inspect results.
+
+Offline verification: `python -m coherent_investigation.verify_export` from repository root, using Python with cryptography installed. This checks the archived artifacts and frozen code without credentials or paid calls. The post-run local checker is `python -m coherent_investigation.validate_final`; it additionally expects local raw requests and billing reconciliation. Reporting code can be inspected separately from the frozen experiment.
+
+Do not use these held-out results to tune the completed study. If a future study is authorized, specify a new question and untouched evaluation set. Candidate bottlenecks include evidence discovery, capture gaps and unsupported inference despite valid references. This study does not test live collusion, a trained detector, recorder compromise or enforcement. Preserve all previous study conclusions and their different interfaces.

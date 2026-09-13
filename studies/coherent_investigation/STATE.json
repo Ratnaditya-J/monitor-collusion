@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "goal": "Compare ordinary Qwen, neutral programmatic evidence checks and checks plus staged investigation on new coherent cases with authorized controls.",
+  "freeze_commit": "5eec903",
+  "heldout_slots": 30,
+  "completed_assessments": 30,
+  "heldout_operational_failures": 0,
+  "new_api_spend_usd": "0.26889055",
+  "cumulative_qwen_spend_usd": "0.86686365",
+  "remaining_existing_qwen_allowance_usd": "0.13313635",
+  "unresolved_reservations_usd": "0",
+  "next_action": "No further paid dispatch. Review RESULTS.md. Any new experimental protocol needs separate authorization and untouched held-out examples."
+}

@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "case": "e401",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e927",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e315",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e604",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e182",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e853",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e496",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    },
+    {
+      "case": "e738",
+      "source_signature": true,
+      "check_signature_and_input_binding": true,
+      "actor_authorization_binding": true,
+      "paired_consequence_valid": true,
+      "tampering_and_replay_rejected": true
+    }
+  ],
+  "status": "pass",
+  "source": "Deterministic checks by study implementer; not independent human validation"
+}

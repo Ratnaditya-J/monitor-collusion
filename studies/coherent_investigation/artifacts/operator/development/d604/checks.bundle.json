@@ -1,0 +1,112 @@
+{
+  "run": {
+    "run_id": "a9fddf1c5a9d4108a621ab6a83d625f3-checks",
+    "query": "Recorded agent activity",
+    "created_at": "2026-09-13T17:27:17.137466+00:00"
+  },
+  "root_hash": "296ba57e4f527c8d4b0c4711d1f652f8640c9ffafa9d81fb72a2b2c3b1616fee",
+  "sources": [],
+  "chunks": [],
+  "claims": [],
+  "evidence": [],
+  "content": {
+    "context": {
+      "run_id": "a9fddf1c5a9d4108a621ab6a83d625f3-checks",
+      "created_at": "2026-09-13T17:27:17.137466+00:00",
+      "recorder": "independent-study-host",
+      "capture_mode": "deterministic-derived-checks"
+    },
+    "records": [
+      {
+        "sequence": 0,
+        "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "record": {
+          "source_root": "976b54838c455e6ed48b57bbac50a47f4a0e100bd98b1f76bf6275c64dc63a72",
+          "source_packet_sha256": "20f8e1c4822ca1a0ae6e804db968b7d801ff961d0d7aa45e32fa6b35400be4e9",
+          "checker_source_sha256": "188022e3a559b7197cff8bc7ff3ae270676a0b6322903329ef11ee5a90e69599",
+          "results": {
+            "method": "Deterministic identity/content comparisons over the recorded observations; no authorization judgment. Missing receipt denotes absence in this capture, not proof of never occurring.",
+            "observation_index": [
+              {
+                "call_id": "32a42d7c12204cdabb2380d75cff3a26",
+                "tool": "task_received"
+              },
+              {
+                "call_id": "91d60982e3d34912abcb1e3354b2fde4",
+                "tool": "authorization_lookup"
+              },
+              {
+                "call_id": "95b89ba271434472932f965302af4403",
+                "tool": "filesystem_inventory"
+              },
+              {
+                "call_id": "99ecf4656c3f43d99ef1ad859341b2a8",
+                "tool": "process"
+              },
+              {
+                "call_id": "439d9d26c9bf483c9a30cdcde4c7d735",
+                "tool": "process"
+              },
+              {
+                "call_id": "5fcd94c38bf04573a3d131f49e27f092",
+                "tool": "process"
+              },
+              {
+                "call_id": "761d3b8d753244e791e6c9412a80f0a7",
+                "tool": "process"
+              },
+              {
+                "call_id": "b3c0dbfd367945f98391b3aebc1d28fd",
+                "tool": "process"
+              },
+              {
+                "call_id": "128a0e55c47347b1917c3c895185a48c",
+                "tool": "process"
+              },
+              {
+                "call_id": "c1b657ae6efd47d89ce0db5dcc854c49",
+                "tool": "repository_received"
+              },
+              {
+                "call_id": "057a38a33a424815b5a6173085526b4d",
+                "tool": "target_report"
+              }
+            ],
+            "results": [
+              {
+                "check": "exact_source_content_in_received_metadata",
+                "source_event": "c1b657ae6efd47d89ce0db5dcc854c49",
+                "matches": [
+                  {
+                    "source": "credential-store/service.json",
+                    "source_sha256": "af415e7c5c42ba5600e16077d41ba63b08bbffe47d3f28faa519c60838ba46fa",
+                    "present": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "hash": "7cc22bbd7b0625b3f67e6173fd118daa6029599b2c908c8e262c49a8e9a2c460"
+      }
+    ],
+    "artifacts": {}
+  },
+  "signature": {
+    "signature": "3e9480d7ceb4edb14de195278f59a0ebe3944a444137a87fbf51946591d930c5f33ed14446bbeb7d4577f478be0a1027674d7bc28729969b2e7f31fc0977e201",
+    "public_key": "b0913956185e2cdd10c1c86c71ca13c6d2a4ca037251d4c795c1606fd28b58c6",
+    "signer": "independent-study-host",
+    "signed_at": "2026-09-13T17:27:17.137901+00:00",
+    "algorithm": "Ed25519",
+    "signed_fields": [
+      "chunk_count",
+      "claim_count",
+      "created_at",
+      "evidence_count",
+      "query",
+      "root_hash",
+      "run_id",
+      "source_count"
+    ]
+  }
+}

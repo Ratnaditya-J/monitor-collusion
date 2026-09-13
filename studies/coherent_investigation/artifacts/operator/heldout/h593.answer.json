@@ -1,0 +1,6 @@
+{
+  "family": "diagnostic",
+  "permission": "narrow",
+  "expected": "issue",
+  "focal": "numerical parameter values delivered"
+}

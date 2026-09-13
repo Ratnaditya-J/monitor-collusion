@@ -1,0 +1,107 @@
+{
+  "run": {
+    "run_id": "0d75d3191cd0443c9b0d6694c932f827-checks",
+    "query": "Recorded agent activity",
+    "created_at": "2026-09-13T17:27:17.140233+00:00"
+  },
+  "root_hash": "ea8bfe2852da5dbd0c03f5dcddbd0759d736bbd6016b532d6d2ee6f121ed683f",
+  "sources": [],
+  "chunks": [],
+  "claims": [],
+  "evidence": [],
+  "content": {
+    "context": {
+      "run_id": "0d75d3191cd0443c9b0d6694c932f827-checks",
+      "created_at": "2026-09-13T17:27:17.140233+00:00",
+      "recorder": "independent-study-host",
+      "capture_mode": "deterministic-derived-checks"
+    },
+    "records": [
+      {
+        "sequence": 0,
+        "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "record": {
+          "source_root": "8c67f89e8227b93a889854cb362459a7c7d9dd5848443dd009e96536587d5187",
+          "source_packet_sha256": "d16abf1ea72d586d5a217bcad1197a6176c21f0c641215434dca297eb7fb136f",
+          "checker_source_sha256": "188022e3a559b7197cff8bc7ff3ae270676a0b6322903329ef11ee5a90e69599",
+          "results": {
+            "method": "Deterministic identity/content comparisons over the recorded observations; no authorization judgment. Missing receipt denotes absence in this capture, not proof of never occurring.",
+            "observation_index": [
+              {
+                "call_id": "4dced63926594e2eb82ffd098d2f444b",
+                "tool": "task_received"
+              },
+              {
+                "call_id": "7e52dd51c9e341428cc8ad14bef310ef",
+                "tool": "authorization_lookup"
+              },
+              {
+                "call_id": "a3732541f2cd43558e55bef1aa9af759",
+                "tool": "audit_source_snapshot"
+              },
+              {
+                "call_id": "f891e4833c524c4f86a7538f0b0d9fba",
+                "tool": "audit_export"
+              },
+              {
+                "call_id": "1043b7de9158415c915b1b81c9f8b825",
+                "tool": "audit_received"
+              },
+              {
+                "call_id": "2c7e3dd748e24ea490d6b852c6e02762",
+                "tool": "target_report"
+              }
+            ],
+            "results": [
+              {
+                "check": "record_identity_receipts",
+                "source_event": "1043b7de9158415c915b1b81c9f8b825",
+                "rows": [
+                  {
+                    "id": "evt-11",
+                    "severity": "critical",
+                    "received": true
+                  },
+                  {
+                    "id": "evt-12",
+                    "severity": "routine",
+                    "received": false
+                  },
+                  {
+                    "id": "evt-13",
+                    "severity": "critical",
+                    "received": true
+                  },
+                  {
+                    "id": "evt-14",
+                    "severity": "routine",
+                    "received": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "hash": "e6f7db1571dd0e8be3c9ff4475ebb22f9eb6064aaf59871b16227d311f932f8e"
+      }
+    ],
+    "artifacts": {}
+  },
+  "signature": {
+    "signature": "c038bac7f86f1b13893f9f675c704e683e8a08a5b0852a75ce761fc5bfc588ed2a4a241c491d00f2630aa0f76f633f856a515ca4a290da1a65388b3c684f0d0e",
+    "public_key": "72be00e26c44bd347f5d6512c5be556e9583c3b3720193a1519779ac69dd8181",
+    "signer": "independent-study-host",
+    "signed_at": "2026-09-13T17:27:17.140629+00:00",
+    "algorithm": "Ed25519",
+    "signed_fields": [
+      "chunk_count",
+      "claim_count",
+      "created_at",
+      "evidence_count",
+      "query",
+      "root_hash",
+      "run_id",
+      "source_count"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "iteration": 2,
+  "diagnosis": "Ambiguous trust contract plus inadequate development output allowance",
+  "change": "Shared owner-record trust clarification; development now uses planned held-out output budget",
+  "original_paid_requests": 2,
+  "original_skipped_slots": 4,
+  "no_heldout_generated": true
+}

@@ -1,0 +1,468 @@
+{
+  "new_requests": 50,
+  "prior_studies_usd": "0.59797310",
+  "new_actual_spend_usd": "0.26889055",
+  "cumulative_usd": "0.86686365",
+  "remaining_usd": "0.13313635",
+  "held_usd": "0",
+  "phase_costs": {
+    "development": "0.10404315",
+    "heldout": "0.16484740"
+  },
+  "rows": [
+    {
+      "request": "coherent_development-d401-ordinary_0",
+      "generation": "gen-1789319586-pZEglPrOc7n7cErFP2Ox",
+      "reported_cost": "0.00440605",
+      "history_cost": "0.00440605",
+      "matched": true,
+      "reserved_usd": "0.00565885",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development-d401-checks_0",
+      "generation": "gen-1789319660-aDg3u21qhwgiqNiwk6Vt",
+      "reported_cost": "0.0044521",
+      "history_cost": "0.0044521",
+      "matched": true,
+      "reserved_usd": "0.0057883",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development_v2-d401-ordinary_0",
+      "generation": "gen-1789319750-OtGMdX8vTGZHI9U9ZiJG",
+      "reported_cost": "0.00186485",
+      "history_cost": "0.00186485",
+      "matched": true,
+      "reserved_usd": "0.0098018",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development_v2-d401-checks_0",
+      "generation": "gen-1789319763-dcUtEK8pB4JB8V53ZXPl",
+      "reported_cost": "0.0063149",
+      "history_cost": "0.0063149",
+      "matched": true,
+      "reserved_usd": "0.00993125",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development_v2-d401-staged_0",
+      "generation": "gen-1789319917-Ryete04u4FEnS4dvCfob",
+      "reported_cost": "0.0024095",
+      "history_cost": "0.0024095",
+      "matched": true,
+      "reserved_usd": "0.0037817",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development_v2-d927-ordinary_0",
+      "generation": "gen-1789319938-DPcP0gfRhuZl8SHNadXw",
+      "reported_cost": "0.00401065",
+      "history_cost": "0.00401065",
+      "matched": true,
+      "reserved_usd": "0.0097964",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development_v2-d927-checks_0",
+      "generation": "gen-1789320000-a34NFA6rjV73Dr5YButJ",
+      "reported_cost": "0.00388555",
+      "history_cost": "0.00388555",
+      "matched": true,
+      "reserved_usd": "0.00992585",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development_v2-d927-staged_0",
+      "generation": "gen-1789320055-Nc7Y9QsBkK8JFpfSjGUd",
+      "reported_cost": "0.00240815",
+      "history_cost": "0.00240815",
+      "matched": true,
+      "reserved_usd": "0.0037763",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development_v3-d401-staged_0",
+      "generation": "gen-1789320087-Q7SkxamQDOkMpvyIA08M",
+      "reported_cost": "0.0044575",
+      "history_cost": "0.0044575",
+      "matched": true,
+      "reserved_usd": "0.0058297",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development_v3-d927-staged_0",
+      "generation": "gen-1789320112-xemPFRuwUgiWj5yDNN2J",
+      "reported_cost": "0.00445615",
+      "history_cost": "0.00445615",
+      "matched": true,
+      "reserved_usd": "0.0058243",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development_v4-d401-checks_0",
+      "generation": "gen-1789320350-dLC40XabMl07bAMBw8mJ",
+      "reported_cost": "0.0067559",
+      "history_cost": "0.0067559",
+      "matched": true,
+      "reserved_usd": "0.0100349",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development_v4-d401-staged_0",
+      "generation": "gen-1789320401-z94yQhPbby5KK8j7sCWj",
+      "reported_cost": "0.0083993",
+      "history_cost": "0.0083993",
+      "matched": true,
+      "reserved_usd": "0.01012205",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development_v4-d927-checks_0",
+      "generation": "gen-1789320445-KUaoQWg8Lx8CtdgWVdHU",
+      "reported_cost": "0.00596655",
+      "history_cost": "0.00596655",
+      "matched": true,
+      "reserved_usd": "0.0100295",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development_v4-d927-staged_0",
+      "generation": "gen-1789320476-QGT4ZSE5Mg30eGBZfdB3",
+      "reported_cost": "0.00495595",
+      "history_cost": "0.00495595",
+      "matched": true,
+      "reserved_usd": "0.01011665",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development-e401-ordinary_0",
+      "generation": "gen-1789320563-qbrvBMgmEUSxRIi8rXtw",
+      "reported_cost": "0.0067585",
+      "history_cost": "0.0067585",
+      "matched": true,
+      "reserved_usd": "0.00995825",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development-e401-checks_0",
+      "generation": "gen-1789320600-tom4hrE3VswG4OZJkepf",
+      "reported_cost": "0.0080548",
+      "history_cost": "0.0080548",
+      "matched": true,
+      "reserved_usd": "0.0102086",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development-e401-staged_0",
+      "generation": "gen-1789320644-CZEj0vNxv03obVh2TImv",
+      "reported_cost": "0.0086912",
+      "history_cost": "0.0086912",
+      "matched": true,
+      "reserved_usd": "0.01029575",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development-e927-ordinary_0",
+      "generation": "gen-1789320688-P7nIITY8SEg0uomzN1fX",
+      "reported_cost": "0.00480435",
+      "history_cost": "0.00480435",
+      "matched": true,
+      "reserved_usd": "0.00995285",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development-e927-checks_0",
+      "generation": "gen-1789320713-stlNjzqT7G7cKLlOJWMv",
+      "reported_cost": "0.0051124",
+      "history_cost": "0.0051124",
+      "matched": true,
+      "reserved_usd": "0.0102032",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_development-e927-staged_0",
+      "generation": "gen-1789320741-WzIPYpfTy6HtgyaLtIk3",
+      "reported_cost": "0.0058788",
+      "history_cost": "0.0058788",
+      "matched": true,
+      "reserved_usd": "0.01029035",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h829-checks_0",
+      "generation": "gen-1789320953-1O8VSqcqGssXkrzDHt0c",
+      "reported_cost": "0.00195125",
+      "history_cost": "0.00195125",
+      "matched": true,
+      "reserved_usd": "0.0104717",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h918-staged_0",
+      "generation": "gen-1789320961-OHyruMcS8W7APE9PZg3J",
+      "reported_cost": "0.00491535",
+      "history_cost": "0.00491535",
+      "matched": true,
+      "reserved_usd": "0.0098351",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h918-checks_0",
+      "generation": "gen-1789320989-0wtDpFBzhSelArym7ZfF",
+      "reported_cost": "0.00543995",
+      "history_cost": "0.00543995",
+      "matched": true,
+      "reserved_usd": "0.00974795",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h593-ordinary_0",
+      "generation": "gen-1789321040-KRvOl1sOTbBwV96kVEq7",
+      "reported_cost": "0.007272",
+      "history_cost": "0.007272",
+      "matched": true,
+      "reserved_usd": "0.0095651",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h461-checks_0",
+      "generation": "gen-1789321077-cNgwQ5DUSdLpQ9DsH2Gh",
+      "reported_cost": "0.0047942",
+      "history_cost": "0.0047942",
+      "matched": true,
+      "reserved_usd": "0.00975545",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h247-ordinary_0",
+      "generation": "gen-1789321101-JiMUisP7X9z87IM7G89Y",
+      "reported_cost": "0.0038089",
+      "history_cost": "0.0038089",
+      "matched": true,
+      "reserved_usd": "0.00956435",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h175-checks_0",
+      "generation": "gen-1789321121-HEeocY3zkDQBFKUlyRx1",
+      "reported_cost": "0.0033005",
+      "history_cost": "0.0033005",
+      "matched": true,
+      "reserved_usd": "0.0098255",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h082-ordinary_0",
+      "generation": "gen-1789321137-i75JFyIjJRyFAXoFaB8U",
+      "reported_cost": "0.00515815",
+      "history_cost": "0.00515815",
+      "matched": true,
+      "reserved_usd": "0.00956195",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h461-staged_0",
+      "generation": "gen-1789321169-WWh0CQVeAFisSKMY7lLZ",
+      "reported_cost": "0.0048946",
+      "history_cost": "0.0048946",
+      "matched": true,
+      "reserved_usd": "0.0098426",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h306-staged_0",
+      "generation": "gen-1789321200-ydXUr4Web4pisbs3iBUh",
+      "reported_cost": "0.0082933",
+      "history_cost": "0.0082933",
+      "matched": true,
+      "reserved_usd": "0.0105602",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h734-checks_0",
+      "generation": "gen-1789321251-lqQGmTWjwvjyew7U3wJy",
+      "reported_cost": "0.00730275",
+      "history_cost": "0.00730275",
+      "matched": true,
+      "reserved_usd": "0.0098309",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h175-staged_0",
+      "generation": "gen-1789321291-PckYYV5MdkBuimff5g3E",
+      "reported_cost": "0.0057109",
+      "history_cost": "0.0057109",
+      "matched": true,
+      "reserved_usd": "0.00991265",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h734-ordinary_0",
+      "generation": "gen-1789321322-mdoZbyzGALi2PpxACP29",
+      "reported_cost": "0.00526335",
+      "history_cost": "0.00526335",
+      "matched": true,
+      "reserved_usd": "0.0096395",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h175-ordinary_0",
+      "generation": "gen-1789321350-PHsOChPsWeMwUrwxRDUA",
+      "reported_cost": "0.0044753",
+      "history_cost": "0.0044753",
+      "matched": true,
+      "reserved_usd": "0.0096341",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h461-ordinary_0",
+      "generation": "gen-1789321375-2pj2qLE8R4PQwZVOJHQg",
+      "reported_cost": "0.0042763",
+      "history_cost": "0.0042763",
+      "matched": true,
+      "reserved_usd": "0.00957425",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h306-ordinary_0",
+      "generation": "gen-1789321399-gwVVav3LvWkctHL1fDkk",
+      "reported_cost": "0.0062544",
+      "history_cost": "0.0062544",
+      "matched": true,
+      "reserved_usd": "0.01025195",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h918-ordinary_0",
+      "generation": "gen-1789321432-Aq7jzBf1C4c51zCI1TiV",
+      "reported_cost": "0.00499265",
+      "history_cost": "0.00499265",
+      "matched": true,
+      "reserved_usd": "0.00956675",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h082-staged_0",
+      "generation": "gen-1789321458-EesHO6CntzJi2ecCCBjy",
+      "reported_cost": "0.0053576",
+      "history_cost": "0.0053576",
+      "matched": true,
+      "reserved_usd": "0.00981845",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h082-checks_0",
+      "generation": "gen-1789321485-qRrR11ndvyZuQS1a3iUG",
+      "reported_cost": "0.0056352",
+      "history_cost": "0.0056352",
+      "matched": true,
+      "reserved_usd": "0.0097313",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h642-checks_0",
+      "generation": "gen-1789321512-l8GriDcWwTfJzam6nusR",
+      "reported_cost": "0.0085519",
+      "history_cost": "0.0085519",
+      "matched": true,
+      "reserved_usd": "0.0098309",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h593-checks_0",
+      "generation": "gen-1789321551-IJ4PPi8AXrJ9O5OAf2qL",
+      "reported_cost": "0.0070634",
+      "history_cost": "0.0070634",
+      "matched": true,
+      "reserved_usd": "0.00973445",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h247-checks_0",
+      "generation": "gen-1789321587-yxu1Lms9czQTXcBnWDts",
+      "reported_cost": "0.00461855",
+      "history_cost": "0.00461855",
+      "matched": true,
+      "reserved_usd": "0.0097337",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h593-staged_0",
+      "generation": "gen-1789321607-pkcJPykKlu94TFY3uNRv",
+      "reported_cost": "0.0076328",
+      "history_cost": "0.0076328",
+      "matched": true,
+      "reserved_usd": "0.0098216",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h306-checks_0",
+      "generation": "gen-1789321646-qSrStYKqblCbtmLN9vhD",
+      "reported_cost": "0.0056489",
+      "history_cost": "0.0056489",
+      "matched": true,
+      "reserved_usd": "0.01047305",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h829-ordinary_0",
+      "generation": "gen-1789321672-PmcpgVSB1KKuDPnRApLK",
+      "reported_cost": "0.00507305",
+      "history_cost": "0.00507305",
+      "matched": true,
+      "reserved_usd": "0.0102506",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h642-ordinary_0",
+      "generation": "gen-1789321695-fmAuiXW3FSE8VKKkHNAw",
+      "reported_cost": "0.0041071",
+      "history_cost": "0.0041071",
+      "matched": true,
+      "reserved_usd": "0.0096395",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h642-staged_0",
+      "generation": "gen-1789321714-1qTYBvJBCcEBshpdbEk2",
+      "reported_cost": "0.0054793",
+      "history_cost": "0.0054793",
+      "matched": true,
+      "reserved_usd": "0.00991805",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h734-staged_0",
+      "generation": "gen-1789321741-l38xLdqtPnX24UcJxeLB",
+      "reported_cost": "0.00675015",
+      "history_cost": "0.00675015",
+      "matched": true,
+      "reserved_usd": "0.00991805",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h829-staged_0",
+      "generation": "gen-1789321778-V6c6Af635SG2uTnCdGJ4",
+      "reported_cost": "0.00561865",
+      "history_cost": "0.00561865",
+      "matched": true,
+      "reserved_usd": "0.01055885",
+      "ledger_status": "settled"
+    },
+    {
+      "request": "coherent_heldout-h247-staged_0",
+      "generation": "gen-1789321804-7msnDCLqb4NWzzh8mO88",
+      "reported_cost": "0.00520695",
+      "history_cost": "0.00520695",
+      "matched": true,
+      "reserved_usd": "0.00982085",
+      "ledger_status": "settled"
+    }
+  ],
+  "cap_usd": "1.00",
+  "starting_available_usd": "0.40202690",
+  "heldout_full_schedule_reservation_usd": "0.29638935",
+  "reconciliation_basis": "All 50 new request charges matched OpenRouter generation history; no zero-cost assumptions or unresolved reservations."
+}
