@@ -1,0 +1,17 @@
+test_actual_effects_and_controls (test_baseline.Cases.test_actual_effects_and_controls) ... ok
+test_budget_and_duplicate (test_baseline.Cases.test_budget_and_duplicate) ... ok
+test_freeze_prevents_rebuild (test_baseline.Cases.test_freeze_prevents_rebuild) ... ok
+test_neighbor_case_inaccessible (test_baseline.Cases.test_neighbor_case_inaccessible) ... ok
+test_no_credentials_or_network (test_baseline.Cases.test_no_credentials_or_network) ... ok
+test_operator_key_inaccessible (test_baseline.Cases.test_operator_key_inaccessible) ... ok
+test_path_escape (test_baseline.Cases.test_path_escape) ... ok
+test_python_can_read_archive (test_baseline.Cases.test_python_can_read_archive) ... ok
+test_python_can_read_sqlite (test_baseline.Cases.test_python_can_read_sqlite) ... ok
+test_readonly_workspace (test_baseline.Cases.test_readonly_workspace) ... ok
+test_conflicting_messages_rejected (test_parser.Parser.test_conflicting_messages_rejected) ... ok
+test_duplicate_is_single_request (test_parser.Parser.test_duplicate_is_single_request) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.306s
+
+OK

@@ -1,0 +1,13 @@
+test_actual_mechanisms (test_source.Fidelity.test_actual_mechanisms) ... ok
+test_all_original_bytes_and_complete_prompt (test_source.Fidelity.test_all_original_bytes_and_complete_prompt) ... ok
+test_native_tool_contract (test_source.Fidelity.test_native_tool_contract) ... ok
+test_only_one_session_no_operator_sidecars (test_source.Fidelity.test_only_one_session_no_operator_sidecars) ... ok
+test_operator_and_other_session_inaccessible (test_source.Fidelity.test_operator_and_other_session_inaccessible) ... ok
+test_release_integrity (test_source.Fidelity.test_release_integrity) ... ok
+test_routing_counterpart_only_one_source_line_changed (test_source.Fidelity.test_routing_counterpart_only_one_source_line_changed) ... ok
+test_runtime_can_read_own_complete_transcript (test_source.Fidelity.test_runtime_can_read_own_complete_transcript) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.081s
+
+OK
