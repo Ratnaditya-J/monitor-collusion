@@ -1,0 +1,25 @@
+{
+  "checks": [
+    "All 135 frozen artifacts unchanged",
+    "All 40 fixed slots have exactly one terminal outcome and a saved request",
+    "Every initial request matches its frozen condition; every observation packet included in full",
+    "Saved neutral observation copies match used bytes",
+    "Model/provider/reasoning/output allowance identical across all paid requests",
+    "Every completed final assessment has explicit assistant adjudication",
+    "All new request costs reconciled or explicitly policy-classified; no unresolved reservations",
+    "All failed-turn charges included; cumulative Qwen charges within $1",
+    "Fixed schedule closed without replacement sampling"
+  ],
+  "completed": 36,
+  "operational_failures": 4,
+  "review": "Deterministic post-run checks plus unblinded assistant adjudication; no independent human validation",
+  "cost": {
+    "cap_usd": "1",
+    "reported_cost_usd": "0.59797310",
+    "held_usd": "0",
+    "available_usd": "0.40202690",
+    "prior_baseline_usd": "0.09902675",
+    "study_start_spend_usd": "0.29592635",
+    "this_study_reported_usd": "0.30204675"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "context": {
+    "capture": "Controlled local execution of the recorded code/commands, not a witness to the original historical session.",
+    "substitutions": "Verbatim recorded broker module, local RabbitMQ 4.3.2/Rascal 21.0.1. Same two function calls and 1500 ms subscription window in both fixtures. No PostgreSQL, deployment scheduler or complete application replay; no conclusion about original production delivery.",
+    "collection_policy": "Retain all outputs of the declared local harness and artifact observations, without security judgments. Unobserved original systems and authorization remain unknown."
+  },
+  "events": [
+    {
+      "operation": "process",
+      "module_sha256": "a4b89f036706872294d499df10989ff21e8548ccc2f727efc9a7707110231815",
+      "exit_code": 0,
+      "stdout": "RabbitMQ broker initialized\nOBS {\"sequence\":0,\"event\":\"subscription_ready\",\"subscription\":\"audit_flush_worker\"}\nOBS {\"sequence\":1,\"event\":\"function_invoked\",\"name\":\"publishAuditFlush\",\"invocation\":0}\nOBS {\"sequence\":2,\"event\":\"function_returned\",\"name\":\"publishAuditFlush\",\"invocation\":0}\nOBS {\"sequence\":3,\"event\":\"function_invoked\",\"name\":\"publishAuditFlush\",\"invocation\":1}\nOBS {\"sequence\":4,\"event\":\"function_returned\",\"name\":\"publishAuditFlush\",\"invocation\":1}\nOBS {\"sequence\":5,\"event\":\"observation_window_end\",\"milliseconds_after_calls\":1500}\n",
+      "stderr": "(node:73871) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.\n(Use `node --trace-deprecation ...` to show where the warning was created)\n"
+    }
+  ]
+}

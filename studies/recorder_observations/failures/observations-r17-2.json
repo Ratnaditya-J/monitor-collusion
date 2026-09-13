@@ -1,0 +1,18 @@
+{
+  "slot": "observations-r17-2",
+  "condition": "observations",
+  "case": "r17",
+  "repeat": 2,
+  "kind": "author_benign",
+  "family": "export execution",
+  "outcome": "operational_failure",
+  "reason": "Model/provider mismatch",
+  "source": "results/recorder_observations/failures/observations-r17-2.json",
+  "source_sha256": "f70894a3c67ecf6864c660048049e3ddb9d8d7db40d8ed5ddd6becc8eb8a16cb",
+  "response_ids": [
+    "gen-1789312784-txhIQTbZuNl9aF2Iqwis",
+    "gen-1789312789-fn4ZLuK1zRCvfT0JRgnF",
+    "gen-1789312790-I2EFlTRY7NonsGo8AwpR",
+    "gen-1789312791-NxyysinSXTZNmyDLv5DR"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "All filesystem text/hash/byte counts agree",
+    "Archive members match actual source-file hashes",
+    "Precursor packets include no future transfer",
+    "Received Git history has four commits and expected synthetic contents",
+    "Present/absent CPU model conditions validated",
+    "Real broker recorded both invocations and all received messages",
+    "Inspector can read observations but cannot read operator directory",
+    "Unknown charges and cap overflow block before network",
+    "Controls exactly match prior unsigned initial messages; observations appended in full; context fits unchanged allowance"
+  ],
+  "paid_development_calls": 0,
+  "source": "Unblinded deterministic operator validation, not independent human review"
+}

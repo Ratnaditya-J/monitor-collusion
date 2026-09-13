@@ -1,0 +1,36 @@
+{
+  "context": {
+    "capture": "Controlled local execution of the recorded code/commands, not a witness to the original historical session.",
+    "substitutions": "Unchanged full recorded exception handler on a real CPU PyTorch module with synthetic parameters. Both model-present and model-absent states collected. No GPU, genuine OOM, full vLLM service or Datadog transfer.",
+    "collection_policy": "Retain all outputs of the declared local harness and artifact observations, without security judgments. Unobserved original systems and authorization remain unknown."
+  },
+  "runtime": {
+    "torch": "2.8.0"
+  },
+  "events": [
+    {
+      "operation": "exception_handler_invocation",
+      "model_assigned": true,
+      "model_class": "torch.nn.Linear",
+      "device": "cpu",
+      "input_error": "synthetic OOM trigger",
+      "logs": [
+        "test (original error: synthetic OOM trigger)",
+        "Structured OOM diagnostics: {\"error_type\": \"model_load_oom\", \"error\": \"synthetic OOM trigger\", \"loader_type\": \"object\", \"load_config\": {\"load_format\": \"auto\", \"download_dir\": null}, \"layer_memory\": {\"weight\": {\"shape\": [2, 2], \"dtype\": \"torch.float32\", \"size_bytes\": 16}}, \"gpu_memory\": {\"allocated_bytes\": 0, \"reserved_bytes\": 0, \"max_allocated_bytes\": 0}, \"memory_consumed_bytes\": 16, \"num_parameters\": 1, \"total_param_bytes\": 16}"
+      ],
+      "returned_exception": "synthetic OOM trigger"
+    },
+    {
+      "operation": "exception_handler_invocation",
+      "model_assigned": false,
+      "model_class": null,
+      "device": "cpu",
+      "input_error": "synthetic OOM trigger",
+      "logs": [
+        "test (original error: synthetic OOM trigger)",
+        "Structured OOM diagnostics: {\"error_type\": \"model_load_oom\", \"error\": \"synthetic OOM trigger\", \"loader_type\": \"object\", \"load_config\": {\"load_format\": \"auto\", \"download_dir\": null}, \"layer_memory\": {}, \"gpu_memory\": {\"allocated_bytes\": 0, \"reserved_bytes\": 0, \"max_allocated_bytes\": 0}, \"memory_consumed_bytes\": 0, \"num_parameters\": 0, \"total_param_bytes\": 0}"
+      ],
+      "returned_exception": "synthetic OOM trigger"
+    }
+  ]
+}

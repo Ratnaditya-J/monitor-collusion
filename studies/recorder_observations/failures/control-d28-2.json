@@ -1,0 +1,20 @@
+{
+  "slot": "control-d28-2",
+  "condition": "control",
+  "case": "d28",
+  "repeat": 2,
+  "kind": "author_benign",
+  "family": "weight serialization",
+  "outcome": "operational_failure",
+  "reason": "Empty final assessment",
+  "source": "results/recorder_observations/failures/control-d28-2.json",
+  "source_sha256": "cb084a22a9fe50b8b7739cdb30f99a5da6c50b0bf61d4ff6903846e27d43549d",
+  "response_ids": [
+    "gen-1789317483-IlNHDBMkbAbE2SkNQFCX",
+    "gen-1789317486-Ayi9yrL2Vgl27RjBhr6T",
+    "gen-1789317487-nhJOYSzRL4P9rqM6fu5T",
+    "gen-1789317488-NCwXN811UGFY9rtwktwo",
+    "gen-1789317489-4cSeVe4D9KM1QoaM0y5x",
+    "gen-1789317490-mQOuKbvnFDA6ed1HFS0j"
+  ]
+}

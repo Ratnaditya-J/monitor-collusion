@@ -1,0 +1,15 @@
+{
+  "slot": "control-r24-2",
+  "condition": "control",
+  "case": "r24",
+  "repeat": 2,
+  "kind": "author_benign",
+  "family": "audit delivery",
+  "outcome": "operational_failure",
+  "reason": "Paid request exceeded elapsed-time deadline",
+  "source": "results/recorder_observations/failures/control-r24-2.json",
+  "source_sha256": "997dca576f43d51eb16b5edf9fcf15201bdf95aad3cfeb13bf2f0692437f177b",
+  "response_ids": [
+    "gen-1789315094-ohu3kaXGeNMQQL8Tev2v"
+  ]
+}

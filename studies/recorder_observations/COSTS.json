@@ -1,0 +1,850 @@
+{
+  "at": "2026-09-13T16:39:37.461649+00:00",
+  "new_requests": 114,
+  "new_actual_spend_usd": "0.30204675",
+  "prior_baseline_usd": "0.29592635",
+  "cumulative_cost_usd": "0.59797310",
+  "available_usd": "0.40202690",
+  "held_usd": "0",
+  "hard_cumulative_cap_usd": "1",
+  "generation_history_verified_requests": 112,
+  "policy_classified_zero_output_errors": [
+    {
+      "request": "obs_control-r86-2_0",
+      "generation": "gen-1789312207-ZZBqp7wRW9WHL3Yr4OLW",
+      "classification": "pre-generation provider rejection",
+      "http_status": 429,
+      "provider": "Parasail",
+      "attempts": 1,
+      "failed_attempts": 1,
+      "latency_ms": 237,
+      "request_file_timestamp": 1789312206.8055027,
+      "ui_generation_timestamp": 1789312207,
+      "completion_stream_received": false,
+      "generation_history_api": "404 twice; no generated-completion record",
+      "cost_usd": "0",
+      "cost_basis": "OpenRouter upstream-request UI confirms sole attempt rejected with HTTP 429 before any successful generation. Zero-output/error requests are waived under documented billing policy. This is a rejection/policy classification, not a returned generation total_cost.",
+      "policy_url": "https://openrouter.zendesk.com/hc/en-us/articles/51693138951451-Was-I-charged-for-a-failed-errored-or-empty-response-Zero-Completion-Insurance",
+      "history_ui": "https://openrouter.ai/logs",
+      "conservative_original_reservation_usd": "0.02782815"
+    },
+    {
+      "request": "obs_observations-r17-2_4",
+      "generation": "gen-1789312793-QByas8ZD5So6q6ViXpBq",
+      "request_timestamp": 1789312792.9796154,
+      "http_status": 524,
+      "completion_stream_received": false,
+      "cost_usd": "0",
+      "generation_history_http_status": 404,
+      "basis": "OpenRouter upstream-request UI shows one Parasail attempt, status 524, latency 300.0s at matching generation timestamp. Saved response has no ID, usage, content or finish reason. Zero-output/error billing policy used; not a generation-history total_cost.",
+      "policy_url": "https://openrouter.zendesk.com/hc/en-us/articles/51693138951451-Was-I-charged-for-a-failed-errored-or-empty-response-Zero-Completion-Insurance",
+      "ui_source": "https://openrouter.ai/logs",
+      "ui_observation": "Sep 13 10:19 AM; Qwen3.5-35B-A3B; Parasail; gen-1789312793-QByas8ZD5So6q6ViXpBq; 524; 1 attempt; 300.0s",
+      "conservative_original_reservation_usd": "0.0309423"
+    }
+  ],
+  "accounting_note": "112 requests reconciled to generation-history total_cost; two no-output errors classified $0 from upstream logs and published zero-output/error policy, not a returned generation total_cost. Includes all failed assessments and prior Qwen studies; no model judging or paid development.",
+  "rows": [
+    {
+      "request": "obs_observations-r17-1_0",
+      "generation": "gen-1789312076-ESw9d1dcwBvs6V3bneao",
+      "reported_cost": "0.0027043",
+      "history_cost": "0.0027043",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r39-2_0",
+      "generation": "gen-1789312090-E4F42UFvl4U945IsAjSy",
+      "reported_cost": "0.00279105",
+      "history_cost": "0.00279105",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r71-2_0",
+      "generation": "gen-1789312104-gomSKJLEMXJxEe3VDVVa",
+      "reported_cost": "0.0036506",
+      "history_cost": "0.0036506",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r24-1_0",
+      "generation": "gen-1789312112-ftnhuQXfaaKq07Bw6rf7",
+      "reported_cost": "0.00391545",
+      "history_cost": "0.00391545",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r24-1_1",
+      "generation": "gen-1789312122-OEqlgFLLwkImNbTUNvCB",
+      "reported_cost": "0.0028874",
+      "history_cost": "0.0028874",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r24-1_2",
+      "generation": "gen-1789312125-tnLlKr7OFpSEA8Iou3J9",
+      "reported_cost": "0.00286315",
+      "history_cost": "0.00286315",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r24-1_3",
+      "generation": "gen-1789312127-Sji6C1ZvEG36M7NBu6IM",
+      "reported_cost": "0.0032298",
+      "history_cost": "0.0032298",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r24-1_4",
+      "generation": "gen-1789312131-UmTrZa2gsgi5fwQlcarN",
+      "reported_cost": "0.0030414",
+      "history_cost": "0.0030414",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r24-1_5",
+      "generation": "gen-1789312133-dW9xOtEAiEGnRbJqU7LE",
+      "reported_cost": "0.00331765",
+      "history_cost": "0.00331765",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r24-1_6",
+      "generation": "gen-1789312137-T9kHgtqJe2UHOQ2Jey3N",
+      "reported_cost": "0.00314515",
+      "history_cost": "0.00314515",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r24-1_7",
+      "generation": "gen-1789312139-nvHaO1TngTwFvlc4qtQL",
+      "reported_cost": "0.00394785",
+      "history_cost": "0.00394785",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r39-1_0",
+      "generation": "gen-1789312146-LJNTfN7qK9bmPmupLitF",
+      "reported_cost": "0.00144315",
+      "history_cost": "0.00144315",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r39-1_1",
+      "generation": "gen-1789312149-U9OB9vxRFjLfeB8BDyYk",
+      "reported_cost": "0.0009987",
+      "history_cost": "0.0009987",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r39-1_2",
+      "generation": "gen-1789312151-xQMlDhfx8JIx81J9Hovh",
+      "reported_cost": "0.00209455",
+      "history_cost": "0.00209455",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r39-1_3",
+      "generation": "gen-1789312152-Do9tbalsrEnxWifPg7u8",
+      "reported_cost": "0.0038983",
+      "history_cost": "0.0038983",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-d94-1_0",
+      "generation": "gen-1789312169-b6GVOZA4qACtQgJTXNTy",
+      "reported_cost": "0.00696745",
+      "history_cost": "0.00696745",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r17-1_0",
+      "generation": "gen-1789312188-gcDbbKPEaS6qLXZVlAef",
+      "reported_cost": "0.0007077",
+      "history_cost": "0.0007077",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r17-1_1",
+      "generation": "gen-1789312190-FbTC4PEaB73SsekZIhr0",
+      "reported_cost": "0.0029976",
+      "history_cost": "0.0029976",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r86-2_0",
+      "generation": "gen-1789312207-ZZBqp7wRW9WHL3Yr4OLW",
+      "reported_cost": "0",
+      "history_cost": "0",
+      "matched": true,
+      "basis": "Verified upstream rejection and zero-output billing policy; no generation history record"
+    },
+    {
+      "request": "obs_observations-r86-1_0",
+      "generation": "gen-1789312402-q0a17VENbzZ5q55myjGs",
+      "reported_cost": "0.0029544",
+      "history_cost": "0.0029544",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r71-1_0",
+      "generation": "gen-1789312435-aCjHx0MvrLxEaewtpeFL",
+      "reported_cost": "0.0038687",
+      "history_cost": "0.0038687",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r71-1_1",
+      "generation": "gen-1789312456-StTIPOfk3HuwYLlUWilh",
+      "reported_cost": "0.00286415",
+      "history_cost": "0.00286415",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r71-1_2",
+      "generation": "gen-1789312458-tLo5OXH4BaJKjvxvFmaM",
+      "reported_cost": "0.00285335",
+      "history_cost": "0.00285335",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r71-1_3",
+      "generation": "gen-1789312460-XzqErl2TxV2Da4NMpB1R",
+      "reported_cost": "0.0029478",
+      "history_cost": "0.0029478",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r71-1_4",
+      "generation": "gen-1789312462-IgjCORB6OcpZOku3Z9Uc",
+      "reported_cost": "0.00290385",
+      "history_cost": "0.00290385",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r71-1_5",
+      "generation": "gen-1789312463-1VKetod2H6aaAuJIHGRv",
+      "reported_cost": "0.00305045",
+      "history_cost": "0.00305045",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r71-1_6",
+      "generation": "gen-1789312466-uCCh9Y7ZYTUM4aGrFbEA",
+      "reported_cost": "0.00318645",
+      "history_cost": "0.00318645",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r71-1_7",
+      "generation": "gen-1789312469-tQc45rC4VzmsY5XiRNSH",
+      "reported_cost": "0.0041225",
+      "history_cost": "0.0041225",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r17-2_0",
+      "generation": "gen-1789312479-FJYrEBJVQF4j4dlI8Lc6",
+      "reported_cost": "0.0010937",
+      "history_cost": "0.0010937",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r17-2_1",
+      "generation": "gen-1789312483-3bcP3IoxEjDoneQtdQ7E",
+      "reported_cost": "0.0006411",
+      "history_cost": "0.0006411",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r17-2_2",
+      "generation": "gen-1789312484-GuP1vdk0Ww77YsaKoLb5",
+      "reported_cost": "0.00250225",
+      "history_cost": "0.00250225",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r24-2_0",
+      "generation": "gen-1789312495-48h91PbwkhG6ujI1LLDr",
+      "reported_cost": "0.0048066",
+      "history_cost": "0.0048066",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r39-1_0",
+      "generation": "gen-1789312514-6BDwtpFXiKeqzzyXmI3D",
+      "reported_cost": "0.00201105",
+      "history_cost": "0.00201105",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r39-1_1",
+      "generation": "gen-1789312520-obi3fGYJWrI5VmuRQR9S",
+      "reported_cost": "0.0038772",
+      "history_cost": "0.0038772",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d94-2_0",
+      "generation": "gen-1789312535-myyhtgyZGUvgrKEe99dd",
+      "reported_cost": "0.00198635",
+      "history_cost": "0.00198635",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d94-2_1",
+      "generation": "gen-1789312541-AzrlEQ0hAvWRDWPYiUCB",
+      "reported_cost": "0.0014819",
+      "history_cost": "0.0014819",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d94-2_2",
+      "generation": "gen-1789312542-ZfQ4K81lXxgpaCdwBR9r",
+      "reported_cost": "0.0047318",
+      "history_cost": "0.0047318",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-d28-2_0",
+      "generation": "gen-1789312560-JIff80senbH82V6C8Pmd",
+      "reported_cost": "0.0015709",
+      "history_cost": "0.0015709",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-d28-2_1",
+      "generation": "gen-1789312566-eELmlnwM4ETIyVqeRQD2",
+      "reported_cost": "0.00178775",
+      "history_cost": "0.00178775",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r86-2_0",
+      "generation": "gen-1789312573-riKMwjsb2WKgy5is9VPt",
+      "reported_cost": "0.0016604",
+      "history_cost": "0.0016604",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r86-2_1",
+      "generation": "gen-1789312577-dwUsEhhCmfhZGthhUcPL",
+      "reported_cost": "0.00396755",
+      "history_cost": "0.00396755",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-d63-1_0",
+      "generation": "gen-1789312594-SheYcYOjvFxKhILEUn12",
+      "reported_cost": "0.00190575",
+      "history_cost": "0.00190575",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-d63-1_1",
+      "generation": "gen-1789312604-H8qon7DXNXpbueLMEqsy",
+      "reported_cost": "0.00234775",
+      "history_cost": "0.00234775",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r52-1_0",
+      "generation": "gen-1789312617-kqm9iSezAF5BeWlUWmdR",
+      "reported_cost": "0.00202195",
+      "history_cost": "0.00202195",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r52-1_1",
+      "generation": "gen-1789312625-v05XsuoAO4OErzAxWCn2",
+      "reported_cost": "0.00145955",
+      "history_cost": "0.00145955",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r52-1_2",
+      "generation": "gen-1789312628-XYzgJa9kIssYzGD5pffZ",
+      "reported_cost": "0.0015419",
+      "history_cost": "0.0015419",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r52-1_3",
+      "generation": "gen-1789312632-ObRYqclrJybSjmr3a7Ri",
+      "reported_cost": "0.0022274",
+      "history_cost": "0.0022274",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r52-1_4",
+      "generation": "gen-1789312639-heB5agC16SXwZjdXXcUB",
+      "reported_cost": "0.0028941",
+      "history_cost": "0.0028941",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r52-1_5",
+      "generation": "gen-1789312650-Vh7KA3KnTI66AYK0c4QL",
+      "reported_cost": "0.0030414",
+      "history_cost": "0.0030414",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r52-1_6",
+      "generation": "gen-1789312660-TxGIYqc7awTg7NvEgMYj",
+      "reported_cost": "0.00349775",
+      "history_cost": "0.00349775",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r71-1_0",
+      "generation": "gen-1789312672-dALisQ0yieGByKEKtojH",
+      "reported_cost": "0.0034886",
+      "history_cost": "0.0034886",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r71-1_1",
+      "generation": "gen-1789312679-VVlcn2zJSF491PkWP6wL",
+      "reported_cost": "0.00270065",
+      "history_cost": "0.00270065",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r71-1_2",
+      "generation": "gen-1789312680-4LEOHO73TKFpbBDiKiI2",
+      "reported_cost": "0.0027322",
+      "history_cost": "0.0027322",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r71-1_3",
+      "generation": "gen-1789312682-mIveT7Ano4Hx2fMA5XK4",
+      "reported_cost": "0.00309",
+      "history_cost": "0.00309",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r71-1_4",
+      "generation": "gen-1789312686-zKo6n2XWnQbsM0D5rjHu",
+      "reported_cost": "0.0029117",
+      "history_cost": "0.0029117",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r71-1_5",
+      "generation": "gen-1789312688-FsZL97mziYTZCCtAnLPR",
+      "reported_cost": "0.00284715",
+      "history_cost": "0.00284715",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r71-1_6",
+      "generation": "gen-1789312690-2RuK40bJVpkenwEqJmpI",
+      "reported_cost": "0.0029837",
+      "history_cost": "0.0029837",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r71-1_7",
+      "generation": "gen-1789312692-XnIUsYgKYU1Aj47gprQf",
+      "reported_cost": "0.00432995",
+      "history_cost": "0.00432995",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-d28-1_0",
+      "generation": "gen-1789312706-9edzbmfZhfgOggs6EShJ",
+      "reported_cost": "0.0021249",
+      "history_cost": "0.0021249",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-d41-1_0",
+      "generation": "gen-1789312734-9FunCagUctsK0AdIwAyb",
+      "reported_cost": "0.00704315",
+      "history_cost": "0.00704315",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r17-2_0",
+      "generation": "gen-1789312784-txhIQTbZuNl9aF2Iqwis",
+      "reported_cost": "0.0015563",
+      "history_cost": "0.0015563",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r17-2_1",
+      "generation": "gen-1789312789-fn4ZLuK1zRCvfT0JRgnF",
+      "reported_cost": "0.00106045",
+      "history_cost": "0.00106045",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r17-2_2",
+      "generation": "gen-1789312790-I2EFlTRY7NonsGo8AwpR",
+      "reported_cost": "0.00107845",
+      "history_cost": "0.00107845",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r17-2_3",
+      "generation": "gen-1789312791-NxyysinSXTZNmyDLv5DR",
+      "reported_cost": "0.00160835",
+      "history_cost": "0.00160835",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r17-2_4",
+      "generation": "gen-1789312793-QByas8ZD5So6q6ViXpBq",
+      "reported_cost": "0",
+      "history_cost": "0",
+      "matched": true,
+      "basis": "Verified upstream rejection and zero-output billing policy; no generation history record"
+    },
+    {
+      "request": "obs_control-d63-2_0",
+      "generation": "gen-1789314976-2Dnu8BNv5H9q0L233Bzi",
+      "reported_cost": "0.00085365",
+      "history_cost": "0.00085365",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d63-2_1",
+      "generation": "gen-1789314978-arvShWAIjnhXAInawyWF",
+      "reported_cost": "0.0012032",
+      "history_cost": "0.0012032",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d63-2_2",
+      "generation": "gen-1789314981-MwI4NsThGzOisW42bxR6",
+      "reported_cost": "0.00305875",
+      "history_cost": "0.00305875",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r52-1_0",
+      "generation": "gen-1789314995-LbAhqV9t8yQtTLUcprWc",
+      "reported_cost": "0.00118445",
+      "history_cost": "0.00118445",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r52-1_1",
+      "generation": "gen-1789314998-krCDjDJRSHNFJpdk2HmZ",
+      "reported_cost": "0.00253955",
+      "history_cost": "0.00253955",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d41-1_0",
+      "generation": "gen-1789315008-UNcBJ1Cs8S8WshLdVkcJ",
+      "reported_cost": "0.00339535",
+      "history_cost": "0.00339535",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d28-1_0",
+      "generation": "gen-1789315025-cjISThwI9JcdqapqIAnn",
+      "reported_cost": "0.00125135",
+      "history_cost": "0.00125135",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d28-1_1",
+      "generation": "gen-1789315028-mkHAPKgpIzrKQ4bSTCgX",
+      "reported_cost": "0.00075205",
+      "history_cost": "0.00075205",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d28-1_2",
+      "generation": "gen-1789315029-dQeq3NS8oL6zH59s2hgY",
+      "reported_cost": "0.00074745",
+      "history_cost": "0.00074745",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d28-1_3",
+      "generation": "gen-1789315030-7laQQeNuAWrzPOvuAGsK",
+      "reported_cost": "0.000779",
+      "history_cost": "0.000779",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d28-1_4",
+      "generation": "gen-1789315031-uhMHZSq18HwfqFn2eAOx",
+      "reported_cost": "0.00317625",
+      "history_cost": "0.00317625",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r39-2_0",
+      "generation": "gen-1789315046-8chQ7e85D9waDBmKdeXz",
+      "reported_cost": "0.00148515",
+      "history_cost": "0.00148515",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r39-2_1",
+      "generation": "gen-1789315050-VdWCimovn8bDZZLblOkB",
+      "reported_cost": "0.0012667",
+      "history_cost": "0.0012667",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r39-2_2",
+      "generation": "gen-1789315052-WMGVKgU6U21RzwT6bHRZ",
+      "reported_cost": "0.00333855",
+      "history_cost": "0.00333855",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r52-2_0",
+      "generation": "gen-1789315062-JMKMCFmHuLFVPEwOqn7W",
+      "reported_cost": "0.00179195",
+      "history_cost": "0.00179195",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r52-2_1",
+      "generation": "gen-1789315066-UYI06Pe0K8k1CozAw4Vc",
+      "reported_cost": "0.00282505",
+      "history_cost": "0.00282505",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r86-1_0",
+      "generation": "gen-1789315074-de3iquxxryWKwwJt43JV",
+      "reported_cost": "0.0013933",
+      "history_cost": "0.0013933",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r86-1_1",
+      "generation": "gen-1789315077-93ucHX8y96VpkN38PuQN",
+      "reported_cost": "0.00191345",
+      "history_cost": "0.00191345",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r86-1_2",
+      "generation": "gen-1789315078-Lj8nRCGgo8syPXHnMJbb",
+      "reported_cost": "0.001917",
+      "history_cost": "0.001917",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r86-1_3",
+      "generation": "gen-1789315080-GdG2eHBzvzRv7bTyS9Se",
+      "reported_cost": "0.00295485",
+      "history_cost": "0.00295485",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r86-1_4",
+      "generation": "gen-1789315081-Z9Unk3DrdCvLx8ttBFlW",
+      "reported_cost": "0.0045846",
+      "history_cost": "0.0045846",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r24-2_0",
+      "generation": "gen-1789315094-ohu3kaXGeNMQQL8Tev2v",
+      "reported_cost": "0.00447745",
+      "history_cost": "0.00447745",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r24-2_1",
+      "generation": "gen-1789315115-P95VoogQcUilnctwVm4i",
+      "reported_cost": "0.0033516",
+      "history_cost": "0.0033516",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-d41-2_0",
+      "generation": "gen-1789317360-h4olfADijpz93h8Pyi48",
+      "reported_cost": "0.00647815",
+      "history_cost": "0.00647815",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d94-1_0",
+      "generation": "gen-1789317371-Xl8fyjnfgc3fE4FKTIco",
+      "reported_cost": "0.00326035",
+      "history_cost": "0.00326035",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-d63-2_0",
+      "generation": "gen-1789317386-4iybpirxqM2CfIXESIXR",
+      "reported_cost": "0.00245675",
+      "history_cost": "0.00245675",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r24-1_0",
+      "generation": "gen-1789317398-dYCcwdLF7PZdB7rBUEhe",
+      "reported_cost": "0.0035046",
+      "history_cost": "0.0035046",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r24-1_1",
+      "generation": "gen-1789317403-wEBPbFiVAXZb6Jvi6kQu",
+      "reported_cost": "0.0034414",
+      "history_cost": "0.0034414",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r24-1_2",
+      "generation": "gen-1789317407-Ekj3wo1tf0WadbCJ5Tc1",
+      "reported_cost": "0.0029522",
+      "history_cost": "0.0029522",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r24-1_3",
+      "generation": "gen-1789317409-lhCKMJ1aOxoUIWWzSprO",
+      "reported_cost": "0.003477",
+      "history_cost": "0.003477",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r24-1_4",
+      "generation": "gen-1789317413-vyXGuuzaePMC212ckMCc",
+      "reported_cost": "0.00322855",
+      "history_cost": "0.00322855",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r24-1_5",
+      "generation": "gen-1789317415-ZKv6dAS97EZSJoqSKrKx",
+      "reported_cost": "0.00503845",
+      "history_cost": "0.00503845",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r24-1_6",
+      "generation": "gen-1789317425-Q4VkX1p8ASY7JG18uHrK",
+      "reported_cost": "0.00480655",
+      "history_cost": "0.00480655",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r24-1_7",
+      "generation": "gen-1789317432-be2Y5uBOf6iXldTcslvC",
+      "reported_cost": "0.00530425",
+      "history_cost": "0.00530425",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d63-1_0",
+      "generation": "gen-1789317442-mQlbdNCRxHQkdHZOOQNt",
+      "reported_cost": "0.00104865",
+      "history_cost": "0.00104865",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d63-1_1",
+      "generation": "gen-1789317445-e4qF700965sNChIyZ2dF",
+      "reported_cost": "0.0007042",
+      "history_cost": "0.0007042",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d63-1_2",
+      "generation": "gen-1789317446-BtUefCHomvMybjMhAiz6",
+      "reported_cost": "0.00315675",
+      "history_cost": "0.00315675",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-r71-2_0",
+      "generation": "gen-1789317460-LqdO3lyPPTGULZU3ahHl",
+      "reported_cost": "0.0050657",
+      "history_cost": "0.0050657",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d28-2_0",
+      "generation": "gen-1789317483-IlNHDBMkbAbE2SkNQFCX",
+      "reported_cost": "0.00118635",
+      "history_cost": "0.00118635",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d28-2_1",
+      "generation": "gen-1789317486-Ayi9yrL2Vgl27RjBhr6T",
+      "reported_cost": "0.00074045",
+      "history_cost": "0.00074045",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d28-2_2",
+      "generation": "gen-1789317487-nhJOYSzRL4P9rqM6fu5T",
+      "reported_cost": "0.00077065",
+      "history_cost": "0.00077065",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d28-2_3",
+      "generation": "gen-1789317488-NCwXN811UGFY9rtwktwo",
+      "reported_cost": "0.00078675",
+      "history_cost": "0.00078675",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d28-2_4",
+      "generation": "gen-1789317489-4cSeVe4D9KM1QoaM0y5x",
+      "reported_cost": "0.0008066",
+      "history_cost": "0.0008066",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d28-2_5",
+      "generation": "gen-1789317490-mQOuKbvnFDA6ed1HFS0j",
+      "reported_cost": "0.0014964",
+      "history_cost": "0.0014964",
+      "matched": true
+    },
+    {
+      "request": "obs_observations-d94-2_0",
+      "generation": "gen-1789317494-tCIiOCJvraAQ5mCkIG7U",
+      "reported_cost": "0.00636845",
+      "history_cost": "0.00636845",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d41-2_0",
+      "generation": "gen-1789317505-GiC9czYdb9P34FMCESd5",
+      "reported_cost": "0.00150135",
+      "history_cost": "0.00150135",
+      "matched": true
+    },
+    {
+      "request": "obs_control-d41-2_1",
+      "generation": "gen-1789317506-pEIRymBVdRd0KlkbB9kl",
+      "reported_cost": "0.00474495",
+      "history_cost": "0.00474495",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r52-2_0",
+      "generation": "gen-1789317522-qKtfnAeWdPhclDO2vo8k",
+      "reported_cost": "0.00079845",
+      "history_cost": "0.00079845",
+      "matched": true
+    },
+    {
+      "request": "obs_control-r52-2_1",
+      "generation": "gen-1789317524-GlZNXCjwUiTcd085fxVW",
+      "reported_cost": "0.00271755",
+      "history_cost": "0.00271755",
+      "matched": true
+    }
+  ],
+  "conservative_total_if_both_policy_classifications_used_full_reservations_usd": "0.65674355"
+}
