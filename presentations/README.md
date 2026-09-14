@@ -1,5 +1,7 @@
 # Investigator findings: presentation sources
 
+[Download the PowerPoint presentation](agent-investigator-findings.pptx)
+
 The presentation compares investigator models and evidence setups. Numbers below are assessment counts from selected tests, not general model failure rates. The earlier live-generated collusion messages are a separate experiment from the four published benchmark attack families.
 
 | Deck topic | Report and evidence | Implementation |
