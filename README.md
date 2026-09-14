@@ -1,5 +1,7 @@
 # monitor-collusion
 
+[Presentation source index: results, code and exact agent quotations](presentations/README.md)
+
 ## Coherent Qwen comparison: completed
 
 The [new three-condition study](studies/coherent_investigation/RESULTS.md) repaired case coherence and compared ordinary Qwen, Qwen with programmatic evidence checks, and Qwen with checks plus a staged permission-review procedure. All thirty held-out assessments completed: each condition found 4/4 violations, cleared 4/4 authorized counterparts and appropriately left 2/2 missing-permission cases unresolved. No added detection benefit was demonstrated. Some supporting explanations still overstate evidence; valid signatures and citations do not establish sound reasoning. New spend, including development failures: **$0.26889055**. [Protocol](studies/coherent_investigation/PROTOCOL.md), [all outcomes](studies/coherent_investigation/OUTCOMES.md), [offline verification](studies/coherent_investigation/REPRODUCIBILITY.md).
